@@ -237,13 +237,13 @@ and then subtrack it by 100. use this new number as the
 "max-width" value below
 */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1400px) {
     #flex {
         flex-wrap: wrap;
     }
 
     aside {
-        width: 1400%;
+        width: 100%;
     }
 
     /* the order of the items is adjusted here for responsiveness!
