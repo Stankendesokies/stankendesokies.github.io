@@ -17,6 +17,10 @@ body {
     list-style-type: none;
 }
 
+.nav_bar li::marker {
+    display: none;
+}
+
 .sidebar {
     height: 100%;
     width: 0;
