@@ -36,7 +36,6 @@ body {
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
   }
   
   .sidebar a:hover {
@@ -49,11 +48,6 @@ body {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-
-  .main_box, .top_bar {
-    transition: margin-left .5s;
-    padding: 16px;
   }
 
   .openNav {
