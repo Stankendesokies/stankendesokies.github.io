@@ -8,6 +8,10 @@ body {
     margin: auto;
 }
 
+.title, .nav_bar, .main_box, .main_box h2, .main_box p, .bottom_bar {
+    margin: auto;
+}
+
 .nav_bar li {
     display: inline-block;
     list-style-type: none;
