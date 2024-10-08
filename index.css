@@ -1,0 +1,13 @@
+body {
+    max-width: 1500px;
+}
+
+.top_bar {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav_bar {
+    display: inline-block;
+    list-style-type: none;
+}
