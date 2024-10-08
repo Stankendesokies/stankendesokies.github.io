@@ -8,7 +8,7 @@ body {
     margin: auto;
 }
 
-.nav_bar {
+.nav_bar li {
     display: inline-block;
     list-style-type: none;
 }
