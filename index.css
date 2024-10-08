@@ -51,7 +51,7 @@ body {
     margin-left: 50px;
   }
 
-  .main_focus, .bottom_bar {
+  .main_box {
     transition: margin-left .5s;
     padding: 16px;
   }
