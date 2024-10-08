@@ -55,3 +55,11 @@ body {
     transition: margin-left .5s;
     padding: 16px;
   }
+
+  .openNav {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+  }
