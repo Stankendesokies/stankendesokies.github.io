@@ -8,8 +8,8 @@ body {
     margin: auto;
 }
 
-.title, .nav_bar, .main_box, .main_box h2, .main_box p, .bottom_bar {
-    margin: auto;
+.top_bar, .main_box, .bottom_bar {
+    text-align: center;
 }
 
 .nav_bar li {
