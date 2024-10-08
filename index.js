@@ -7,7 +7,7 @@ function openNav() {
   
   function closeNav() {
     document.getElementById("sidebar").style.width = "0";
-    document.getElementById("main_box").style.marginLeft= "0";
-    document.getElementById("top_bar").style.marginLeft = "0";
+    document.getElementById("main_box").style.marginLeft= "auto";
+    document.getElementById("top_bar").style.marginLeft = "auto";
     document.body.style.backgroundColor = "white";
   }
