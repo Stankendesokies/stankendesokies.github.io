@@ -51,7 +51,7 @@ body {
     margin-left: 50px;
   }
 
-  .main_box {
+  .main_box, .top_bar {
     transition: margin-left .5s;
     padding: 16px;
   }
