@@ -75,7 +75,7 @@ before and after the text */
 the other elements, you will need to move that div outside
 of the container */
 #container {
-    max-width: 900px;
+    max-width: 1500px;
     /* this is the width of your layout! */
     /* if you change the above value, scroll to the bottom
 and change the media query according to the comment! */
@@ -243,7 +243,7 @@ and then subtrack it by 100. use this new number as the
     }
 
     aside {
-        width: 100%;
+        width: 1400%;
     }
 
     /* the order of the items is adjusted here for responsiveness!
