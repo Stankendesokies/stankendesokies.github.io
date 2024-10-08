@@ -1,7 +1,13 @@
+@font-face {
+    font-family: OpenDyslexic;
+    src: url('http://www.andrearastelli.net/font/OpenDyslexic-Regular.otf');
+}
+
 body {
     background-color: #36393E;
     max-width: 1500px;
     margin: auto;
+    font-family: OpenDyslexic;
 }
 
 .top_bar {
@@ -38,10 +44,11 @@ body {
     color: #f1f1f1;
 }
   
-.sidebar .closebtn {
+.closebtn {
     position: absolute;
+    padding: 10px 25px 10px 25px;
     top: 0;
-    right: 25px;
+    right: 0px;
     font-size: 36px;
     margin-left: 50px;
 }
