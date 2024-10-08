@@ -1,4 +1,5 @@
 body {
+    background-color: #36393E;
     max-width: 1500px;
     margin: auto;
 }
@@ -12,15 +13,6 @@ body {
     text-align: center;
 }
 
-.nav_bar li {
-    display: inline-block;
-    list-style-type: none;
-}
-
-.nav_bar li::marker {
-    display: none;
-}
-
 .sidebar {
     height: 100%;
     width: 0;
@@ -32,32 +24,74 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
+}
   
-  .sidebar a {
+.sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
-  }
+}
   
-  .sidebar a:hover {
+.sidebar a:hover {
     color: #f1f1f1;
-  }
+}
   
-  .sidebar .closebtn {
+.sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
 
-  .openNav {
+.openNav {
     font-size: 30px;
     cursor: pointer;
     position: absolute;
     left: 1%;
     top: 2%;
-  }
+}
+
+@keyframes rainbow {
+    0%                  {background: rgba(228, 3, 3, 0.700);}
+    16.66666666666667%  {background: rgba(255, 140, 0, 0.700);}
+    33.33333333333333%  {background: rgba(255, 237, 0, 0.700);}
+    50%                 {background: rgba(0, 128, 38, 0.700);}
+    66.66666666666667%  {background: rgba(0, 76, 255, 0.700);}
+    83.33333333333334%  {background: rgba(115, 41, 130, 0.700);}
+    100%                {background: rgba(228, 3, 3, 0.700);}
+}
+
+@-webkit-keyframes rainbow {
+    0%                  {background: rgba(228, 3, 3, 0.700);}
+    16.66666666666667%  {background: rgba(255, 140, 0, 0.700);}
+    33.33333333333333%  {background: rgba(255, 237, 0, 0.700);}
+    50%                 {background: rgba(0, 128, 38, 0.700);}
+    66.66666666666667%  {background: rgba(0, 76, 255, 0.700);}
+    83.33333333333334%  {background: rgba(115, 41, 130, 0.700);}
+    100%                {background: rgba(228, 3, 3, 0.700);}
+}
+         
+a:hover, a:focus {
+    animation-name: rainbow;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    -webkit-animation-name: rainbow;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    outline: none;
+}
+
+::selection {
+    background-color: #f723be;
+    color: #FFFFFF;
+}
