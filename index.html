@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/js" href="index.js">
     </head>
     <body>
         <header class="top_bar">
@@ -15,17 +16,19 @@
             </nav>
         </header>
         <main class="main_box">
+            <aside class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <h3>This is my sidebar!</h3>
+                <section>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </section>
+            </aside>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
             <article class="main_focus">
                 <h2>Title of my page</h2>
                 <p>Writing here!</p>
             </article>
-            <aside class="sidebar">
-                <h3>This is my sidebar!</h3>
-                <section>
-                    <p>First section...</p>
-                    <p>Second section...</p>
-                </section>
-            </aside>
             <footer class="bottom_bar">
                 <p>Footer text here...</p>
             </footer>
