@@ -18,7 +18,7 @@ body {
     margin: auto;
 }
 
-.top_bar, .main_box {
+.top_bar, .main_box h2 {
     text-align: center;
 }
 
