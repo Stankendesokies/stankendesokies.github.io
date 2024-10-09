@@ -48,10 +48,10 @@ body {
   
 .closebtn {
     position: absolute;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 25px 10px 25px !important;
     top: 0;
     right: 0px;
-    font-size: 36px;
+    font-size: 36px !important;
     margin-left: 50px;
 }
 
