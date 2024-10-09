@@ -51,6 +51,10 @@ p {
 
 .bottom_bar {
     font-size: small;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .links {
@@ -95,7 +99,7 @@ p {
 .openNav {
     font-size: 30px;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     left: 1%;
     top: 2%;
 }
