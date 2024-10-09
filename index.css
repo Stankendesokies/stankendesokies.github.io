@@ -21,6 +21,17 @@ p {
     margin: 0px 16px 0px 16px;
 }
 
+.mark {
+    border-bottom: 1px solid #000;
+    top: -14px;
+    position: relative;
+}
+
+.offsetMark {
+    position: relative;
+    top: 14px;
+}
+
 .top_bar {
     width: 450px;
     margin: auto;
