@@ -30,6 +30,10 @@ body {
     text-align: center;
 }
 
+.bottom_bar {
+    font-size: small;
+}
+
 .links {
     top: 13px;
     position: relative;
