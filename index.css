@@ -16,6 +16,10 @@ body {
     font-family: 'OpenDyslexic';
 }
 
+p {
+    margin: 0px 16px 0px 16px;
+}
+
 .top_bar {
     width: 450px;
     margin: auto;
