@@ -26,7 +26,7 @@ body {
     background: #22222222;
 }
 
-.top_bar, .main_box h2 {
+.top_bar, .main_box h2, .bottom_bar {
     text-align: center;
 }
 
