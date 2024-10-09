@@ -19,6 +19,11 @@ body {
 .top_bar {
     max-width: 1200px;
     margin: auto;
+    background: #22222222;
+}
+
+.main_box {
+    background: #22222222;
 }
 
 .top_bar, .main_box h2 {
