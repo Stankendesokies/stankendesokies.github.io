@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'OpenDyslexic';
     src: url("OpenDyslexic-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -17,6 +19,11 @@ body {
 
 .top_bar, .main_box {
     text-align: center;
+}
+
+.links {
+    top: 13px;
+    position: relative;
 }
 
 .sidebar {
@@ -46,7 +53,7 @@ body {
   
 .closebtn {
     position: absolute;
-    padding: 10px 25px 10px 25px !important;
+    padding: 5px 20px 5px 20px !important;
     top: 0;
     right: 0px;
     font-size: 36px !important;
