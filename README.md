@@ -4,8 +4,8 @@ Valerie (she/her they/them) here :3c
 
 This repository is simply the place where I store all the code for my website: (website link)
 
-I'm currently learning how all this even works, so yeah, there ain't no website yet!
-But I'm sure I'll get there like soon enough :shrug:
+So, I haven't touched HTML or JS in the past 4 years. Which means that I'm basically relearning both of those as I do this stuff.
 
-I actually already made my first big mistake. I made a repository on github pages called "stankendesokies" when it should've been "stankendesokies.github.io"
-But I fixed it now! (Also it's 06:19AM, I just came back from my night shift. So I'll go eep pretty soon x3)
+I got my side nav bar to work and look decent enough, and currently I'm trying to make OpenDyslexic the default font for my website. However, this is showing to be a bigger struggle than I originally anticipated. But I'm sure I'll get there :3
+
+I love OpenDyslexic btw! My fav font of all time. In fact, I made that font my default font for Windows itself. So yeah fufufufu
