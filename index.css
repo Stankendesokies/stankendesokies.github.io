@@ -145,3 +145,22 @@ a {
     background-color: #f723be;
     color: #FFFFFF;
 }
+
+.soc_list {
+    list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.soc_btn {
+    background-color: #c33aed;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
