@@ -12,11 +12,12 @@
     }
 
     .sidebar a, .openNav {
-        font-size: 66px !important;
+        font-size: 100px !important;
     }
 
     .closebtn {
         font-size: 72px !important;
+        padding: 5px 50px 5px 50px !important;
     }
 
     .bottom_bar {
@@ -25,6 +26,12 @@
 
     .top_bar {
         width: 75% !important;
+    }
+  }
+
+  @media (min-width: 1351px) {
+    .sidebar {
+        min-width: 200px;
     }
   }
 
