@@ -106,7 +106,7 @@ p {
     display: block;
 }
 
-.sidebar:not(.closebtn) {
+.sidebar:not(.closebtn) a {
     padding: 8px 8px 8px 32px;
 }
   
