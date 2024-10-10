@@ -21,7 +21,7 @@ p {
 }
 
 audio {
-    width: 400px;
+    width: 20%;
 }
 
 audio::-internal-media-controls-download-button {
