@@ -1,6 +1,6 @@
 function openNav() {
   if (window.innerWidth<=1350) {
-    document.getElementById("sidebar").style.width = "auto";
+    document.getElementById("sidebar").style.width = "410px";
     document.body.style.background = "linear-gradient(145deg, rgba(63,2,87,1) 0%, rgba(113,35,117,1) 25%, rgba(136,7,136,1) 50%, rgba(191,6,127,1) 75%, rgba(222,0,99,1) 100%)";
   }
   else {
