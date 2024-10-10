@@ -4,6 +4,10 @@
       font-size: 50px !important;
     }
 
+    audio {
+        scale: 5;
+    }
+
     .mark {
         top: -40px !important;
     }
