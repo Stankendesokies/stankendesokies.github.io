@@ -1,8 +1,20 @@
-.theme_list {
+.theme_list, .pages {
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
+}
+
+.theme_list {
+    margin: 5px 0px 0px 16px;
+}
+
+.pages {
+    max-width: 354px;
+}
+
+.theme_title {
+    margin: 0px 0px 5px 0px;
 }
 
 .theme_list li {
