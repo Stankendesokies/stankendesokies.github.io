@@ -29,12 +29,6 @@
     }
   }
 
-  @media (min-width: 1351px) {
-    .sidebar {
-        min-width: 200px;
-    }
-  }
-
 html {
     min-height: 100%; /*this is stupid, why do I need this??*/
 }
