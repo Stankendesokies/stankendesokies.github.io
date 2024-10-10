@@ -20,6 +20,10 @@ p {
     margin: 0px 16px 0px 16px;
 }
 
+audio {
+    width: 400px;
+}
+
 .mark {
     border-bottom: 1px solid #000;
     top: -14px;
