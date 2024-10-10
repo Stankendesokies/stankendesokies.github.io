@@ -6,7 +6,7 @@
 }
 
 html {
-    height: 100%; /*this is stupid, why do I need this??*/
+    min-height: 100%; /*this is stupid, why do I need this??*/
 }
 
 body {
