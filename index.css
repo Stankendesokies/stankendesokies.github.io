@@ -27,6 +27,10 @@
     .top_bar {
         width: 75% !important;
     }
+
+    .links {
+        top: 125px !important;
+    }
   }
 
 html {
@@ -96,11 +100,14 @@ p {
 }
   
 .sidebar a {
-    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
+}
+
+.sidebar:not(.closebtn) {
+    padding: 8px 8px 8px 32px;
 }
   
 .sidebar a:hover {
@@ -109,7 +116,7 @@ p {
   
 .closebtn {
     position: absolute;
-    padding: 5px 25px 5px 25px !important;
+    padding: 5px 25px 5px 25px;
     top: 0;
     right: 0px;
     font-size: 36px !important;
