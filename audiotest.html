@@ -5,9 +5,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="phone.css">
         <link rel="stylesheet" type="text/css" href="side_nav.css">
-        <link rel="stylesheet" type="text/css" href="audioplayer.css">
         <script type="text/javascript" src="index.js"></script>
-        <script type="text/javascript" src="audioplayer.js"></script>
     </head>
     <body>
         <header class="top_bar" id="top_bar">
@@ -28,21 +26,10 @@
         <main class="main_box" id="main_box">
             <article class="main_focus">
                 <h2>This is an audio test page (for now)</h2>
-                <div class="audio-player">
-                    <audio id="audio" controls>
-                        <source src="/test.mp3" type="audio/mp3">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="controls">
-                        <button id="play-pause-button">Play</button>
-                        <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" id="progress-bar"></div>
-                    </div>
-                    <div id="current-time">0:00</div>
-                    <div id="total-time">0:00</div>
-                </div>
+                <audio id="audio" controls>
+                    <source src="/test.mp3" type="audio/mp3">
+                    
+                </audio>
             </article>
             <footer class="bottom_bar">
                 <br>
