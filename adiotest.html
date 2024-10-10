@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adio test</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="phone.css">
+        <link rel="stylesheet" type="text/css" href="side_nav.css">
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <header class="top_bar" id="top_bar">
+            <h1 class="title">Adio test</h1>
+            <nav>
+                <span class="openNav" onclick="openNav()">&#9776;</span>
+            </nav>
+        </header>
+        <div class="sidebar" id="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <section class="links">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/socials">Socials</a>
+                <a href="/audiotest">Adio test</a>
+            </section>
+        </div>
+        <main class="main_box" id="main_box">
+            <article class="main_focus">
+                <h2>This is an audio test page (for now)</h2>
+                <audio id="audio" controls>
+                    <source src="/test.mp3" type="audio/mp3">
+                  </audio>
+            </article>
+            <footer class="bottom_bar">
+                <br>
+                <p>Copywhatever Ⓐ</p>
+            </footer>
+        </main>
+    </body>
+</html>
