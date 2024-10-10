@@ -1,0 +1,39 @@
+@media (max-width: 1350px) {
+    /* For mobile phones: */
+    body {
+      font-size: 50px !important;
+    }
+
+    .mark {
+        top: -40px !important;
+    }
+    
+    .offsetMark {
+        top: 40px !important;
+    }
+
+    .sidebar a, .openNav {
+        font-size: 100px !important;
+    }
+
+    .closebtn {
+        font-size: 72px !important;
+        padding: 5px 50px 5px 50px !important;
+    }
+
+    .bottom_bar {
+        font-size: 25px !important;
+    }
+
+    .top_bar {
+        width: 75% !important;
+    }
+
+    .links {
+        top: 125px !important;
+    }
+
+    .soc_btn {
+        font-size: 55px !important;
+    }
+}

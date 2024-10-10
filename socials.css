@@ -1,0 +1,23 @@
+.soc_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.soc_list li {
+    float: left;
+}
+
+.soc_btn {
+    background-color: #c33aed;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 0px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}

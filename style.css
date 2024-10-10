@@ -5,38 +5,6 @@
     font-style: normal;
 }
 
-@media (max-width: 1350px) {
-    /* For mobile phones: */
-    body {
-      font-size: 50px !important;
-    }
-
-    .sidebar a, .openNav {
-        font-size: 100px !important;
-    }
-
-    .closebtn {
-        font-size: 72px !important;
-        padding: 5px 50px 5px 50px !important;
-    }
-
-    .bottom_bar {
-        font-size: 25px !important;
-    }
-
-    .top_bar {
-        width: 75% !important;
-    }
-
-    .links {
-        top: 125px !important;
-    }
-
-    .soc_btn {
-        font-size: 55px !important;
-    }
-  }
-
 html {
     min-height: 100%; /*this is stupid, why do I need this??*/
 }
@@ -85,57 +53,6 @@ p {
     margin-bottom: 5px;
 }
 
-.links {
-    top: 13px;
-    position: relative;
-    padding-bottom: 75px;
-}
-
-.sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-  
-.sidebar a {
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-}
-
-.sidebar a:not(.closebtn) {
-    padding: 8px 8px 8px 32px;
-}
-  
-.sidebar a:hover {
-    color: #f1f1f1;
-}
-  
-.closebtn {
-    position: absolute;
-    padding: 5px 25px 5px 25px;
-    top: 0;
-    right: 0px;
-    font-size: 36px !important;
-    margin-left: 50px;
-}
-
-.openNav {
-    font-size: 30px;
-    cursor: pointer;
-    position: absolute;
-    left: 1%;
-    top: 2%;
-}
-
 @keyframes rainbow {
     0%                  {background: rgba(228, 3, 3, 0.700);}
     16.66666666666667%  {background: rgba(255, 140, 0, 0.700);}
@@ -181,27 +98,3 @@ a {
     background-color: #f723be;
     color: #FFFFFF;
 }
-
-.soc_list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-}
-
-.soc_list li {
-    float: left;
-}
-
-.soc_btn {
-    background-color: #c33aed;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    margin: 0px 5px 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-  }
