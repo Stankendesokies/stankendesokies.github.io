@@ -5,6 +5,21 @@
     font-style: normal;
 }
 
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    body {
+      font-size: 50px;
+    }
+
+    .sidebar a {
+        font-size: 66px;
+    }
+
+    .closebtn {
+        font-size: 72px;
+    }
+  }
+
 html {
     min-height: 100%; /*this is stupid, why do I need this??*/
 }
