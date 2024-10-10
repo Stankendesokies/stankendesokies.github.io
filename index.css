@@ -8,19 +8,23 @@
 @media (max-width: 1350px) {
     /* For mobile phones: */
     body {
-      font-size: 50px;
+      font-size: 50px !important;
     }
 
-    .sidebar a {
-        font-size: 66px;
+    .sidebar a, .openNav {
+        font-size: 66px !important;
     }
 
     .closebtn {
-        font-size: 72px;
+        font-size: 72px !important;
     }
 
     .bottom_bar {
-        font-size: 25px;
+        font-size: 25px !important;
+    }
+
+    .top_bar {
+        width: 75% !important;
     }
   }
 
