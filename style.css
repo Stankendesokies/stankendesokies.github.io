@@ -48,7 +48,7 @@ audio {
     border-radius: 7px;
 }
 
-.top_bar, .main_box h2, .bottom_bar {
+.top_bar, .main_box h2, .main_box h3, .bottom_bar {
     text-align: center;
 }
 
