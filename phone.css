@@ -9,6 +9,7 @@
     }
 
     .mark {
+        border-bottom: 2px solid #000;
         top: -40px !important;
     }
     
