@@ -5,11 +5,11 @@
     }
 
     audio {
-        display: none;
+        display: none !important;
     }
 
     .mark {
-        border-bottom: 2px solid #000;
+        border-bottom: 2px solid #000 !important;
         top: -33px !important;
     }
     
@@ -31,8 +31,8 @@
     }
 
     .footnote {
-        font-size: 30px;
-        bottom: 25px;
+        font-size: 30px !important;
+        bottom: 25px !important;
     }
 
     .top_bar {
@@ -47,7 +47,7 @@
         font-size: 55px !important;
     }
 
-    .twothemes, .pages {
-        width: fit-content;
+    .twothemes {
+        width: fit-content !important;
     }
 }
