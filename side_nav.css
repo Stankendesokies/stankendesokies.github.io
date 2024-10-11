@@ -35,7 +35,7 @@
 .openNav {
     font-size: 30px;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     left: 1%;
     top: 2%;
 }
