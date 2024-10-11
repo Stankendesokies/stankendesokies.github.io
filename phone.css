@@ -4,7 +4,7 @@
       font-size: 40px !important;
     }
 
-    audio {
+    .audio_player {
         display: none !important;
     }
 
