@@ -7,6 +7,7 @@
 
 html {
     min-height: 100%; /*this is stupid, why do I need this??*/
+    scroll-behavior: smooth;
 }
 
 body {
@@ -60,6 +61,10 @@ audio {
 
 .sources {
     font-size: small;
+}
+
+.sources p {
+    margin: 0px;
 }
 
 .footnote {
