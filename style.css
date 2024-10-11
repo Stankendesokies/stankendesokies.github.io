@@ -36,8 +36,9 @@ audio {
 }
 
 .top_bar {
-    width: 450px;
+    width: fit-content;
     margin: auto;
+    padding: 0px 10px;
     background: #22222222;
     border-radius: 7px;
 }
