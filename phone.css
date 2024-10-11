@@ -30,6 +30,11 @@
         font-size: 25px !important;
     }
 
+    .footnote {
+        font-size: 30px;
+        bottom: 25px;
+    }
+
     .top_bar {
         width: 75% !important;
     }

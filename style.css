@@ -68,7 +68,7 @@ audio {
 }
 
 .footnote {
-    font-size: 5px;
+    font-size: 9px;
     position: relative;
     bottom: 7px;
 }
@@ -117,7 +117,7 @@ a {
 }
 
 a:visited {
-    color: #c100ac;
+    color: #d015bb;
 }
 
 ::selection {
