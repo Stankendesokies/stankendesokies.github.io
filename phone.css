@@ -1,7 +1,7 @@
 @media (max-width: 1350px) {
     /* For mobile phones: */
     body {
-      font-size: 50px !important;
+      font-size: 40px !important;
     }
 
     audio {
@@ -10,11 +10,11 @@
 
     .mark {
         border-bottom: 2px solid #000;
-        top: -40px !important;
+        top: -33px !important;
     }
     
     .offsetMark {
-        top: 40px !important;
+        top: 33px !important;
     }
 
     .sidebar a, .openNav {
@@ -45,5 +45,9 @@
 
     .soc_btn, .theme_btn {
         font-size: 55px !important;
+    }
+
+    .twothemes {
+        width: fit-content;
     }
 }

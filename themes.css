@@ -10,7 +10,8 @@
 }
 
 .pages {
-    max-width: 354px;
+    width: 50%;
+    float: left;
 }
 
 .theme_title {
@@ -20,6 +21,11 @@
 
 .theme_list li {
     float: left;
+}
+
+.twothemes {
+    float: left;
+    width: 530px;
 }
 
 .theme_btn {
