@@ -58,6 +58,10 @@ audio {
     margin-bottom: 5px;
 }
 
+.sources {
+    font-size: small;
+}
+
 @keyframes rainbow {
     0%                  {background: rgba(228, 3, 3, 0.700);}
     16.66666666666667%  {background: rgba(255, 140, 0, 0.700);}
