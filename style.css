@@ -97,6 +97,12 @@ a:hover, a:focus {
 
 a {
     border-radius: 7px;
+    color: #ff00e3;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #c100ac;
 }
 
 ::selection {
