@@ -62,6 +62,12 @@ audio {
     font-size: small;
 }
 
+.footnote {
+    font-size: 5px;
+    position: relative;
+    bottom: 7px;
+}
+
 @keyframes rainbow {
     0%                  {background: rgba(228, 3, 3, 0.700);}
     16.66666666666667%  {background: rgba(255, 140, 0, 0.700);}
