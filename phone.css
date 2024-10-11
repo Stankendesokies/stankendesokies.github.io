@@ -37,7 +37,7 @@
         top: 125px !important;
     }
 
-    .soc_btn {
+    .soc_btn, .theme_btn {
         font-size: 55px !important;
     }
 }
