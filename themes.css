@@ -25,7 +25,7 @@
 .theme_btn {
     background-color: #c33aed;
     border: none;
-    color: white;
+    color: black !important;
     padding: 10px 5px;
     margin: 0px 5px 5px 5px;
     text-align: center;
