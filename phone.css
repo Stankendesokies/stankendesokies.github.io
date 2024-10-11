@@ -47,7 +47,15 @@
         font-size: 55px !important;
     }
 
+    .theme_list li {
+        width: 100%;
+    }
+
     .twothemes {
         width: fit-content !important;
+    }
+
+    .theme_btn {
+        width: 96%;
     }
 }
