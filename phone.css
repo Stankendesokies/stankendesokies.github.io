@@ -56,14 +56,14 @@
     }
 
     .theme_btn {
-        width: 96%;
+        width: 96% !important;
     }
 
     .sources {
-        margin-top: 100px;
+        margin-top: 100px !important;
     }
     
     .sources p {
-        right: 30px;
+        right: 30px !important;
     }
 }
