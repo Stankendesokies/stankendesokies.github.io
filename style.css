@@ -21,8 +21,16 @@ p {
     margin: 0px 16px 0px 16px;
 }
 
+.audio_player h3 {
+    padding-top: 10px;
+    margin: 0px 0px 5px 0px;
+}
+
 audio {
-    width: 400px;
+    width: 99%;
+    position: relative;
+    left: 0.5%;
+    border-radius: 7px;
 }
 
 .mark {
@@ -61,10 +69,13 @@ audio {
 
 .sources {
     font-size: small;
+    margin-top: 40px;
 }
 
 .sources p {
     margin: 0px;
+    right: 15px;
+    position: relative;
 }
 
 .footnote {

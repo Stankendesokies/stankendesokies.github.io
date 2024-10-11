@@ -58,4 +58,12 @@
     .theme_btn {
         width: 96%;
     }
+
+    .sources {
+        margin-top: 100px;
+    }
+    
+    .sources p {
+        right: 30px;
+    }
 }
