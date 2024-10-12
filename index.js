@@ -29,10 +29,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   play.addEventListener("click", function() {
     if (video.paused == true) {
-      playButton.innerHTML = "play_arrow"
+      playButton.innerHTML = "pause"
       video.play();
     } else {
-      playButton.innerHTML = "pause"
+      playButton.innerHTML = "play_arrow"
       video.pause();
     }
   })
