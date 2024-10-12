@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
       playButton.innerHTML = "pause"
       video.pause();
     }
-  });
+  })
 
   video.addEventListener('timeupdate', () => {
     const percentage = (video.currentTime / video.duration) * 100
