@@ -33,23 +33,96 @@ function openNav() {
  // }
 //});
 
-$( document ).ready(function() {
-  var ctrlVideo = document.getElementById("video"); 
-   
-  $('button').click(function(){
-    if ($('button').hasClass("active")){
-      
-          ctrlVideo.play();
-      
-      $('button').html("Pause");
-      $('button').toggleClass("active");
+// Display the user defined video controls
+videoControls.setAttribute("data-state", "visible");
+
+const supportsProgress = document.createElement("progress").max !== undefined;
+if (!supportsProgress) progress.setAttribute("data-state", "fake");
+
+function changeButtonState(type) {
+  if (type === "playpause") {
+    // Play/Pause button
+    if (video.paused || video.ended) {
+      playpause.setAttribute("data-state", "play");
     } else {
-      
-          ctrlVideo.pause();
-      
-      $('button').html("play");
-      $('button').toggleClass("active");
+      playpause.setAttribute("data-state", "pause");
     }
-  });
-   
-  });
+  } else if (type === "mute") {
+    // Mute button
+    mute.setAttribute("data-state", video.muted ? "unmute" : "mute");
+  }
+}
+
+video.addEventListener(
+  "play",
+  () => {
+    changeButtonState("playpause");
+  },
+  false,
+);
+
+video.addEventListener(
+  "pause",
+  () => {
+    changeButtonState("playpause");
+  },
+  false,
+);
+
+stop.addEventListener("click", (e) => {
+  video.pause();
+  video.currentTime = 0;
+  progress.value = 0;
+
+  // Update the play/pause button's 'data-state' which allows the correct button image to be set via CSS
+  changeButtonState("playpause");
+});
+
+mute.addEventListener("click", (e) => {
+  video.muted = !video.muted;
+  changeButtonState("mute");
+});
+
+playpause.addEventListener("click", (e) => {
+  if (video.paused || video.ended) {
+    video.play();
+  } else {
+    video.pause();
+  }
+});
+
+function checkVolume(dir) {
+  if (dir) {
+    const currentVolume = Math.floor(video.volume * 10) / 10;
+    if (dir === "+" && currentVolume < 1) {
+      video.volume += 0.1;
+    } else if (dir === "-" && currentVolume > 0) {
+      video.volume -= 0.1;
+    }
+
+    // If the volume has been turned off, also set it as muted
+    // Note: can only do this with the custom control set as when the 'volumechange' event is raised,
+    // there is no way to know if it was via a volume or a mute change
+    video.muted = currentVolume <= 0;
+  }
+  changeButtonState("mute");
+}
+
+const alterVolume = (dir) => {
+  checkVolume(dir);
+};
+
+video.addEventListener(
+  "volumechange",
+  () => {
+    checkVolume();
+  },
+  false,
+);
+
+progress.addEventListener("click", (e) => {
+  const pos =
+    (e.pageX - progress.offsetLeft - progress.offsetParent.offsetLeft) /
+    progress.offsetWidth;
+  video.currentTime = pos * video.duration;
+});
