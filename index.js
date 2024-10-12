@@ -19,18 +19,26 @@ document.addEventListener("DOMContentLoaded", function() {
   var playButton = document.getElementById("play_button");
   // Event listener for the play/pause button
   playButton.addEventListener("click", function() {
-  if (video.paused == true) {
-    // Play the video
-    video.play();
+    if (video.paused == true) {
+      // Play the video
+      video.play();
 
-    // Update the button text to 'Pause'
-    playButton.innerHTML = "Pause";
-  } else {
-    // Pause the video
-    video.pause();
+      // Update the button text to 'Pause'
+      playButton.innerHTML = "Pause";
+    } else {
+      // Pause the video
+      video.pause();
 
-    // Update the button text to 'Play'
-    playButton.innerHTML = "Play";
-  }
-});
+      // Update the button text to 'Play'
+      playButton.innerHTML = "Play";
+    }
+  });
+  const supportsProgress = document.createElement("progress").max !== undefined;
+  if (!supportsProgress) progress.setAttribute("data-state", "fake");
+  progress.addEventListener("click", (e) => {
+    const pos =
+      (e.pageX - progress.offsetLeft - progress.offsetParent.offsetLeft) /
+      progress.offsetWidth;
+    video.currentTime = pos * video.duration;
+  });  
 });
