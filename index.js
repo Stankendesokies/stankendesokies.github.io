@@ -16,12 +16,9 @@ function openNav() {
 
 document.addEventListener("DOMContentLoaded", function() {
   var video = document.getElementById("video");
-});
-document.addEventListener("DOMContentLoaded", function() {
-    var playButton = document.getElementById("play_button");
-});
-// Event listener for the play/pause button
-playButton.addEventListener("click", function() {
+  var playButton = document.getElementById("play_button");
+  // Event listener for the play/pause button
+  playButton.addEventListener("click", function() {
   if (video.paused == true) {
     // Play the video
     video.play();
@@ -35,4 +32,5 @@ playButton.addEventListener("click", function() {
     // Update the button text to 'Play'
     playButton.innerHTML = "Play";
   }
+});
 });
