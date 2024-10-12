@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const currentTimeElement = videoPlayer.querySelector('.current')
   const durationTimeElement = videoPlayer.querySelector('.duration')
   const mute = videoPlayer.querySelector('.mute')
+  const muteButton = mute.querySelector('.mute-button')
 
   video.addEventListener('timeupdate', () => {
     const percentage = (video.currentTime / video.duration) * 100
