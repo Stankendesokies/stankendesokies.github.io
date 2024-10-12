@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
       playButton.innerHTML = "Play";
     }
   });
+  const videoPlayer = document.querySelector('.controls')
   const progress = videoPlayer.querySelector('.progress')
   const progressBar = videoPlayer.querySelector('.progress-bar')
   video.addEventListener('timeupdate', () => {
