@@ -1,26 +1,66 @@
 .controls {
-    width: 100%;
-    height: 40px;
+    display: flex;
     position: relative;
+    height: 40px;
+    margin: 0px 10px;
+    background: #00000087;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.controls * {
+    color: white;
 }
 
 .video {
     display: none;
 }
 
+.controls button {
+    background: transparent;
+    border: none;
+    margin: 8px 0px 8px 5px !important;
+    padding: 0px;
+}
+
 .progress {
     position: relative;
     display: flex;
-    width: 100%;
+    width: 84.3%;
+    min-width: 50px;
     height: 20px;
     background: #c33aed;
     cursor: pointer;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    margin: 10px 0px 10px 5px;
 }
 
 .progress-bar {
     width: 0;
     background: #8b28a9;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.time {
+    display: flex;
+    width: 105px;
+    margin: 6px 0px 6px 5px;
+}
+
+.current {
+    margin: 0px 3px 0px 0px;
+}
+
+.duration {
+    margin: 0px 0px 0px 3px;
+}
+
+.volume {
+    margin: 10px 5px;
+    width: 89px;
 }
