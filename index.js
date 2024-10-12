@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const volume = videoPlayer.querySelector('.volume')
   const currentTimeElement = videoPlayer.querySelector('.current')
   const durationTimeElement = videoPlayer.querySelector('.duration')
+  const mute = videoPlayer.querySelector('.mute')
 
   video.addEventListener('timeupdate', () => {
     const percentage = (video.currentTime / video.duration) * 100
@@ -65,4 +66,15 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   video.addEventListener('timeupdate', currentTime)
+
+  mute.addEventListener('click', () => {
+    if (video.muted) {
+      muteButton.innerHTML = "volume_up"
+      video.muted = false
+    }
+    else {
+      muteButton.innerHTML = "volume_off"
+      video.muted = true
+    }
+  })
 });
