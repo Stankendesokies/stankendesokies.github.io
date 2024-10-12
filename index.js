@@ -33,10 +33,10 @@ document.addEventListener("DOMContentLoaded", function() {
       playButton.innerHTML = "Play";
     }
   });
-  progress.addEventListener("click", (e) => {
-    const pos =
-      (e.pageX - progress.offsetLeft - progress.offsetParent.offsetLeft) /
-      progress.offsetWidth;
-    video.currentTime = pos * video.duration;
-  });  
+  const progress = videoPlayer.querySelector('.progress')
+  const progressBar = videoPlayer.querySelector('.progress-bar')
+  video.addEventListener('timeupdate', () => {
+    const percentage = (video.currentTime / video.duration) * 100
+    progressBar.style.width = `${percentage}%`
+  })
 });
