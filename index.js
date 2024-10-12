@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
     progressBar.style.width = `${percentage}%`
   })
   progress.addEventListener('click', (e => {
-    const progressTime = (e.offsetX / progress.offset) * video.duration
+    const progressTime = (e.offsetX / progress.offsetWidth) * video.duration
     video.currentTime = progressTime
   }))
 });
