@@ -15,25 +15,10 @@ function openNav() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  var video = document.getElementById("video");
-  var playButton = document.getElementById("play_button");
-  // Event listener for the play/pause button
-  playButton.addEventListener("click", function() {
-    if (video.paused == true) {
-      // Play the video
-      video.play();
-
-      // Update the button text to 'Pause'
-      playButton.innerHTML = "Pause";
-    } else {
-      // Pause the video
-      video.pause();
-
-      // Update the button text to 'Play'
-      playButton.innerHTML = "Play";
-    }
-  });
   const videoPlayer = document.querySelector('.controls')
+  const video = videoPlayer.querySelector('.video')
+  const play = videoPlayer.querySelector('.play')
+  const playButton = videoPlayer.querySelector('.play-button')
   const progress = videoPlayer.querySelector('.progress')
   const progressBar = videoPlayer.querySelector('.progress-bar')
   const volume = videoPlayer.querySelector('.volume')
@@ -41,6 +26,16 @@ document.addEventListener("DOMContentLoaded", function() {
   const durationTimeElement = videoPlayer.querySelector('.duration')
   const mute = videoPlayer.querySelector('.mute')
   const muteButton = videoPlayer.querySelector('.mute-button')
+
+  play.addEventListener("click", function() {
+    if (video.paused == true) {
+      playButton.innerHTML = "play_arrow"
+      video.play();
+    } else {
+      playButton.innerHTML = "pause"
+      video.pause();
+    }
+  });
 
   video.addEventListener('timeupdate', () => {
     const percentage = (video.currentTime / video.duration) * 100
