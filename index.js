@@ -33,8 +33,6 @@ document.addEventListener("DOMContentLoaded", function() {
       playButton.innerHTML = "Play";
     }
   });
-  const supportsProgress = document.createElement("progress").max !== undefined;
-  if (!supportsProgress) progress.setAttribute("data-state", "fake");
   progress.addEventListener("click", (e) => {
     const pos =
       (e.pageX - progress.offsetLeft - progress.offsetParent.offsetLeft) /
