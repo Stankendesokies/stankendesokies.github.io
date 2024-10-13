@@ -57,12 +57,16 @@
 }
 
 .duration {
-    margin: 0px 0px 0px 3px;
+    margin: 0px 5px 0px 3px;
 }
 
 .volume {
     margin: 10px 0px 10px 5px;
     width: 89px;
+}
+
+.mute {
+    margin: 8px 0px 8px 0px !important;
 }
 
 .mute-button {
