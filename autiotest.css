@@ -61,10 +61,15 @@
 }
 
 .volume {
-    margin: 10px 5px;
+    margin: 10px 0px 10px 5px;
     width: 89px;
 }
 
 .mute-button {
     color: #424242;
+}
+
+.volume-percent {
+    margin: 5px;
+    width: 46px;
 }

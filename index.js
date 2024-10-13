@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const currentTimeElement = videoPlayer.querySelector('.current')
   const durationTimeElement = videoPlayer.querySelector('.duration')
   const mute = videoPlayer.querySelector('.mute')
+  const muteButton = videoPlayer.querySelector('.mute-button')
   const volPercent = videoPlayer.querySelector('.volume-percent')
 
   play.addEventListener("click", function() {
