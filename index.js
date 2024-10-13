@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const mute = videoPlayer.querySelector('.mute')
   const muteButton = videoPlayer.querySelector('.mute-button')
   const volPercent = videoPlayer.querySelector('.volume-percent')
+  const volZero = false
 
   play.addEventListener("click", function() {
     if (video.paused == true) {
@@ -52,6 +53,27 @@ document.addEventListener("DOMContentLoaded", function() {
     const currentVolPercent = Math.floor(e.target.value * 100)
     video.volume = e.target.value
     volPercent.innerHTML = `${currentVolPercent}%`
+    if (video.volume == 0) {
+      muteButton.style.color = "#ff0000"
+      video.muted = true
+      volZero = true
+    }
+    else {
+      muteButton.style.color = "#424242"
+      video.muted = false
+      volZero = false
+    }
+  })
+
+  mute.addEventListener('click', () => {
+    if (video.muted && !volZero) {
+      muteButton.style.color = "#424242"
+      video.muted = false
+    }
+    else {
+      muteButton.style.color = "#ff0000"
+      video.muted = true
+    }
   })
 
   const currentTime = () => {
@@ -65,15 +87,4 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   video.addEventListener('timeupdate', currentTime)
-
-  mute.addEventListener('click', () => {
-    if (video.muted) {
-      muteButton.style.color = "#424242"
-      video.muted = false
-    }
-    else {
-      muteButton.style.color = "#ff0000"
-      video.muted = true
-    }
-  })
 });
