@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const volButtons = videoPlayer.querySelector('.volume-buttons')
   const volUp = videoPlayer.querySelector('.volume-up')
   const volDown = videoPlayer.querySelector('.volume-down')
+  const volPercent = videoPlayer.querySelector('.volume-percent')
 
   play.addEventListener("click", function() {
     if (video.paused == true) {
@@ -77,12 +78,18 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   })
 
+  const currentVolPercent = (video.volume * 100)
+
   volUp.addEventListener('click', () => {
     video.volume = (video.volume + 0.05)
+    currentVolPercent = (currentVolPercent + 5)
+    volPercent.innerHTML = `${currentVolPercent}%`
   })
 
   volDown.addEventListener('click', () => {
     video.volume = (video.volume - 0.05)
+    currentVolPercent = (currentVolPercent - 5)
+    volPercent.innerHTML = `${currentVolPercent}%`
   })
 
   if (video.volume <= 0.05) {
