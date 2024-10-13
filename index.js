@@ -78,21 +78,21 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   })
 
-  const currentVolPercent = (video.volume * 100)
+  const currentVolPercent = (video.volume * 100.00)
 
   volUp.addEventListener('click', () => {
     video.volume = (video.volume + 0.05)
-    currentVolPercent = (currentVolPercent + 5)
+    currentVolPercent = (currentVolPercent + 5.00)
     volPercent.innerHTML = `${currentVolPercent}%`
   })
 
   volDown.addEventListener('click', () => {
     video.volume = (video.volume - 0.05)
-    currentVolPercent = (currentVolPercent - 5)
+    currentVolPercent = (currentVolPercent - 5.00)
     volPercent.innerHTML = `${currentVolPercent}%`
   })
 
-  if (video.volume <= 0.05) {
+  if (video.volume <= 0.10) {
     video.volume = 0
   }
 });
