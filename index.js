@@ -68,11 +68,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   mute.addEventListener('click', () => {
     if (video.muted) {
-      mute.style.color = "#424242"
+      muteButton.style.color = "#424242"
       video.muted = false
     }
     else {
-      mute.style.color = "#ff0000"
+      muteButton.style.color = "#ff0000"
       video.muted = true
     }
   })
