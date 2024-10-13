@@ -86,7 +86,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
   video.addEventListener('timeupdate', currentTime)
 
-  document.onload = function showTime() {
-    video.currentTime = 0
-  }
+  video.addEventListener('loadedmetadata', currentTime)
 });
