@@ -85,4 +85,8 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   video.addEventListener('timeupdate', currentTime)
+
+  document.onload = function showTime() {
+    video.addEventListener('timeupdate', currentTime)
+  }
 });
