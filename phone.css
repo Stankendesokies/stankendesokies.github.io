@@ -4,10 +4,6 @@
       font-size: 40px !important;
     }
 
-    .audio_player {
-        display: none !important;
-    }
-
     .mark {
         border-bottom: 2px solid #000 !important;
         top: -33px !important;
@@ -69,5 +65,13 @@
 
     .controls {
         font-size: 16px !important;
+    }
+
+    .volume, .volume-percent {
+        display: none !important;
+    }
+
+    .mute {
+        margin: 8px 5px 8px 0px !important;
     }
 }
