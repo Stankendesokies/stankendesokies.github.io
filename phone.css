@@ -66,4 +66,8 @@
     .sources p {
         right: 30px !important;
     }
+
+    .controls {
+        font-size: 16px !important;
+    }
 }
