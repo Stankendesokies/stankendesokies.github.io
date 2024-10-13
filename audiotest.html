@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="side_nav.css">
         <link rel="stylesheet" type="text/css" href="autiotest.css">
         <script type="text/javascript" src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="top_bar" id="top_bar">
@@ -40,7 +41,7 @@
                     <button type="button" class="mute">
                         <i class="material-icons mute-button">volume_up</i>
                     </button>
-                    <input type="range" class="volume" min="0" max="1" step="0.01" value="1">
+                    <input type="range" on-tap="onTap($event)" on-drag="onTap($event)" class="volume" min="0" max="1" step="0.01" value="1">
                 </div>
             </article>
             <footer class="bottom_bar">
