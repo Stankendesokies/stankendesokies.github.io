@@ -65,6 +65,7 @@
 
     .controls {
         font-size: 16px !important;
+        height: 80px !important;
     }
 
     .volume, .volume-percent {
@@ -73,5 +74,15 @@
 
     .mute {
         margin: 8px 5px 8px 0px !important;
+    }
+
+    .progress {
+        height: 40px !important;
+        margin: 20px 0px 20px 5px !important;
+    }
+
+    .time {
+    margin: 12px 0px 12px 5px !important;
+    padding: 12px 0px !important;
     }
 }
