@@ -47,10 +47,9 @@ document.addEventListener("DOMContentLoaded", function() {
     video.currentTime = progressTime
   }))
 
-  const currentVolPercent = (e.target.value * 100)
   volume.addEventListener('mousemove', (e) => {
+    const currentVolPercent = (e.target.value * 100)
     video.volume = e.target.value
-    currentVolPercent = (e.target.value * 100)
     volPercent.innerHTML = `${currentVolPercent}%`
   })
 
