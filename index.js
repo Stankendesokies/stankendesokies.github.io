@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
     durationTimeElement.innerHTML = `${durationMinutes}:${durationSeconds}`
   }
 
-  video.addEventListener('timeupdate', currentTime)
-
   video.addEventListener('loadedmetadata', currentTime)
+  
+  video.addEventListener('timeupdate', currentTime)
 });
