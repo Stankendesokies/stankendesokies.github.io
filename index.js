@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const mute = videoPlayer.querySelector('.mute')
   const muteButton = videoPlayer.querySelector('.mute-button')
   const volPercent = videoPlayer.querySelector('.volume-percent')
-  const volZero = false
+  var volZero = false
 
   play.addEventListener("click", function() {
     if (video.paused == true) {
