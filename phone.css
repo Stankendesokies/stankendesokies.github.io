@@ -68,12 +68,20 @@
         height: 80px !important;
     }
 
+    .controls button {
+        scale: 2 !important;
+    }
+
+    .play {
+        margin: 8px 5px 8px 10px !important;
+    }
+
     .volume, .volume-percent {
         display: none !important;
     }
 
     .mute {
-        margin: 8px 5px 8px 0px !important;
+        margin: 8px 15px !important;
     }
 
     .progress {
@@ -82,7 +90,7 @@
     }
 
     .time {
+    width: 200px !important;
     margin: 12px 0px 12px 5px !important;
-    padding: 12px 0px !important;
     }
 }
