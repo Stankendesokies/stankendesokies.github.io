@@ -26,6 +26,9 @@ document.addEventListener("DOMContentLoaded", function() {
   const durationTimeElement = videoPlayer.querySelector('.duration')
   const mute = videoPlayer.querySelector('.mute')
   const muteButton = videoPlayer.querySelector('.mute-button')
+  const volButtons = videoPlayer.querySelector('.volume-buttons')
+  const volUp = videoPlayer.querySelector('.volume-up')
+  const volDown = videoPlayer.querySelector('.volume-down')
 
   play.addEventListener("click", function() {
     if (video.paused == true) {
@@ -65,12 +68,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
   mute.addEventListener('click', () => {
     if (video.muted) {
-      muteButton.innerHTML = "volume_up"
+      document.body.style.color = "#424242"
       video.muted = false
     }
     else {
-      muteButton.innerHTML = "volume_off"
+      document.body.style.color = "#ff0000"
       video.muted = true
     }
+  })
+
+  volUp.addEventListener('click', () => {
+    video.volume = (video.volume + 0.05)
+  })
+
+  volDown.addEventListener('click', () => {
+    video.volume = (video.volume - 0.05)
   })
 });
