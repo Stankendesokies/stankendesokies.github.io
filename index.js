@@ -74,7 +74,3 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   })
 });
-
-$scope.onTap = function(e) {
-  $scope.barProgress = (e.target.max / e.target.offsetWidth)*(e.gesture.touches[0].screenX - e.target.offsetLeft);
-}
