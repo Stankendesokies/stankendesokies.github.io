@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
   video.addEventListener('timeupdate', currentTime)
 
   document.onload = function showTime() {
-    video.addEventListener('timeupdate', currentTime)
+    currentTimeElement.innerHTML = `${currentMinutes}:${currentSeconds < 10 ? '0'+currentSeconds : currentSeconds}`
+    durationTimeElement.innerHTML = `${durationMinutes}:${durationSeconds}`
   }
 });
