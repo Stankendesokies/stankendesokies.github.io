@@ -84,4 +84,8 @@ document.addEventListener("DOMContentLoaded", function() {
   volDown.addEventListener('click', () => {
     video.volume = (video.volume - 0.05)
   })
+
+  if (video.volume <= 0.05) {
+    video.volume = 0
+  }
 });
