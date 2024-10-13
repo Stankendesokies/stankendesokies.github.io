@@ -55,12 +55,10 @@ document.addEventListener("DOMContentLoaded", function() {
     volPercent.innerHTML = `${currentVolPercent}%`
     if (video.volume == 0) {
       muteButton.style.color = "#ff0000"
-      video.muted = true
       volZero = true
     }
-    else {
+    else if (volZero) {
       muteButton.style.color = "#424242"
-      video.muted = false
       volZero = false
     }
   })
@@ -70,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
       muteButton.style.color = "#424242"
       video.muted = false
     }
-    else {
+    else if (!video.muetd && !volZero) {
       muteButton.style.color = "#ff0000"
       video.muted = true
     }
