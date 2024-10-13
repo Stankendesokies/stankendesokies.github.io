@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }))
 
   volume.addEventListener('mousemove', (e) => {
-    const currentVolPercent = (e.target.value * 100)
+    const currentVolPercent = Math.floor(e.target.value * 100)
     video.volume = e.target.value
     volPercent.innerHTML = `${currentVolPercent}%`
   })
