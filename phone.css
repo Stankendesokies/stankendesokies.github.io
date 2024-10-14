@@ -69,11 +69,16 @@
     }
 
     .controls button {
+        width: 48px !important;
+        height: 48px !important;
+    }
+
+    .controls button i {
         scale: 2 !important;
     }
 
     .play {
-        margin: 14px 5px 7px 10px !important;
+        margin: 16px 5px 16px 10px !important;
     }
 
     .volume, .volume-percent {
@@ -81,7 +86,7 @@
     }
 
     .mute {
-        margin: 14px 15px 7px !important;
+        margin: 16px 15px !important;
     }
 
     .progress {
@@ -91,6 +96,6 @@
 
     .time {
     width: 200px !important;
-    margin: 12px 0px 12px 5px !important;
+    margin: 12px 0px 12px 10px !important;
     }
 }
