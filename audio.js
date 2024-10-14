@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
       video.currentTime = progressTime
     })
 
-    function updateVolume() {
+    function updateVolume(e) {
         const currentVolPercent = Math.floor(e.target.value * 100)
         video.volume = e.target.value
         volPercent.innerHTML = `${currentVolPercent}%`
