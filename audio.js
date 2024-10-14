@@ -1,17 +1,18 @@
+const videoPlayer = document.querySelector('.controls')
+const video = videoPlayer.querySelector('.video')
+const play = videoPlayer.querySelector('.play')
+const playButton = videoPlayer.querySelector('.play-button')
+const progress = videoPlayer.querySelector('.progress')
+const progressBar = videoPlayer.querySelector('.progress-bar')
+const volume = videoPlayer.querySelector('.volume')
+const currentTimeElement = videoPlayer.querySelector('.current')
+const durationTimeElement = videoPlayer.querySelector('.duration')
+const mute = videoPlayer.querySelector('.mute')
+const muteButton = videoPlayer.querySelector('.mute-button')
+const volPercent = videoPlayer.querySelector('.volume-percent')
+var volZero = false
+
 document.addEventListener("DOMContentLoaded", function() {
-    const videoPlayer = document.querySelector('.controls')
-    const video = videoPlayer.querySelector('.video')
-    const play = videoPlayer.querySelector('.play')
-    const playButton = videoPlayer.querySelector('.play-button')
-    const progress = videoPlayer.querySelector('.progress')
-    const progressBar = videoPlayer.querySelector('.progress-bar')
-    const volume = videoPlayer.querySelector('.volume')
-    const currentTimeElement = videoPlayer.querySelector('.current')
-    const durationTimeElement = videoPlayer.querySelector('.duration')
-    const mute = videoPlayer.querySelector('.mute')
-    const muteButton = videoPlayer.querySelector('.mute-button')
-    const volPercent = videoPlayer.querySelector('.volume-percent')
-    var volZero = false
   
     play.addEventListener("click", function() {
       if (video.paused == true) {
@@ -73,9 +74,6 @@ function updateVolume(e) {
       muteButton.style.color = "#ffffff"
       volZero = false}
 }
-
-const video = videoPlayer.querySelector('.video')
-const volume = videoPlayer.querySelector('.volume')
 
 video.addEventListener('loadedmetadata', updateVolume)
 volume.addEventListener('mousemove', updateVolume)
