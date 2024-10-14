@@ -8,5 +8,4 @@ So, I haven't touched HTML or JS in the past 4 years. Which means that I'm basic
 
 I'm doing quite good I'd say! The website now looks decent on phone as well as on pc, and I've added an about page :3
 
-I've added my own custom audio player in the most cursed way (useing <video>).
-But it works, even on my iPhone!!
+I finally finished making my custom audio player, and it looks great and everything is good!!
