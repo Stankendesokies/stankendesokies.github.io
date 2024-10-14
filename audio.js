@@ -28,26 +28,29 @@ document.addEventListener("DOMContentLoaded", function() {
       progressBar.style.width = `${percentage}%`
     })
   
-    progress.addEventListener('click', (e => {
+    progress.addEventListener('click', (e) => {
       const progressTime = (e.offsetX / progress.offsetWidth) * video.duration
       video.currentTime = progressTime
-    }))
-  
-    volume.addEventListener('mousemove', (e) => {
-      const currentVolPercent = Math.floor(e.target.value * 100)
-      video.volume = e.target.value
-      volPercent.innerHTML = `${currentVolPercent}%`
-      if (video.volume == 0) {
-        muteButton.style.color = "#ff0000"
-        volZero = true
-      }
-      else if (volZero && video.muted) {
-        volZero = false
-      }
-      else if (volZero) {
-        muteButton.style.color = "#ffffff"
-        volZero = false}
     })
+
+    function updateVolume() {
+        const currentVolPercent = Math.floor(e.target.value * 100)
+        video.volume = e.target.value
+        volPercent.innerHTML = `${currentVolPercent}%`
+        if (video.volume == 0) {
+          muteButton.style.color = "#ff0000"
+          volZero = true
+        }
+        else if (volZero && video.muted) {
+          volZero = false
+        }
+        else if (volZero) {
+          muteButton.style.color = "#ffffff"
+          volZero = false}
+      }
+  
+    video.addEventListener('loadedmetadata', updateVolume)
+    volume.addEventListener('mousemove', updateVolume)
   
     mute.addEventListener('click', () => {
       if (video.muted && !volZero) {
@@ -71,6 +74,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   
     video.addEventListener('loadedmetadata', currentTime)
-    
     video.addEventListener('timeupdate', currentTime)
   });
