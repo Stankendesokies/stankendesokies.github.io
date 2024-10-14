@@ -49,9 +49,14 @@ document.addEventListener("DOMContentLoaded", function() {
         volZero = false}
     })
 
-    volume.addEventListener('loadedmetadata', () => {
-        volume.value = 1
-    })
+    function loadVol() {
+        var val = volume.value
+        if(val != 1) {
+            volume.value = 1
+        }
+    }
+
+    window.addEventListener('load', loadVol)
   
     mute.addEventListener('click', () => {
       if (video.muted && !volZero) {
