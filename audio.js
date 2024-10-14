@@ -74,5 +74,8 @@ function updateVolume(e) {
       volZero = false}
 }
 
+const video = videoPlayer.querySelector('.video')
+const volume = videoPlayer.querySelector('.volume')
+
 video.addEventListener('loadedmetadata', updateVolume)
 volume.addEventListener('mousemove', updateVolume)
