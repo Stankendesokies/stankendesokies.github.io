@@ -48,6 +48,10 @@ document.addEventListener("DOMContentLoaded", function() {
         muteButton.style.color = "#ffffff"
         volZero = false}
     })
+
+    volume.addEventListener('loadedmetadata', () => {
+        volume.value = 1
+    })
   
     mute.addEventListener('click', () => {
       if (video.muted && !volZero) {
