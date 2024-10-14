@@ -73,7 +73,7 @@
     }
 
     .play {
-        margin: 8px 5px 8px 10px !important;
+        margin: 14px 5px 7px 10px !important;
     }
 
     .volume, .volume-percent {
@@ -81,7 +81,7 @@
     }
 
     .mute {
-        margin: 8px 15px !important;
+        margin: 14px 15px 7px !important;
     }
 
     .progress {

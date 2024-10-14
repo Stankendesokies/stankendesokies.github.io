@@ -3,14 +3,14 @@
     position: relative;
     height: 40px;
     margin: 0px 10px;
-    background: #00000087;
+    background: rgba(93, 2, 157, 1);
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     border-radius: 7px;
 }
 
 .controls * {
-    color: white;
+    color: #ffffff;
 }
 
 .video {
@@ -29,7 +29,7 @@
     width: 84.3%;
     min-width: 50px;
     height: 20px;
-    background: #c33aed;
+    background: rgba(222, 0, 129, 1);
     cursor: pointer;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -39,7 +39,7 @@
 
 .progress-bar {
     width: 0;
-    background: #8b28a9;
+    background: rgba(191, 6, 157, 1);
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     border-radius: 7px;
@@ -70,10 +70,6 @@
 
 .mute {
     margin: 8px 0px 8px 0px;
-}
-
-.mute-button {
-    color: #424242;
 }
 
 .volume-percent {

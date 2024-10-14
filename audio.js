@@ -42,14 +42,14 @@ document.addEventListener("DOMContentLoaded", function() {
         volZero = true
       }
       else if (volZero) {
-        muteButton.style.color = "#424242"
+        muteButton.style.color = "#ffffff"
         volZero = false
       }
     })
   
     mute.addEventListener('click', () => {
       if (video.muted && !volZero) {
-        muteButton.style.color = "#424242"
+        muteButton.style.color = "#ffffff"
         video.muted = false
       }
       else if (!video.muted && !volZero) {
