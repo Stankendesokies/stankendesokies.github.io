@@ -8,4 +8,4 @@ So, I haven't touched HTML or JS in the past 4 years. Which means that I'm basic
 
 I'm doing quite good I'd say! The website now looks decent on phone as well as on pc, and I've added an about page :3
 
-I finally finished making my custom audio player, and it looks great and everything is good!!
+I have finished writing and recording my article on BMI, next I'll update the main page to actually like look nice and stuff. But that'll come later this week, or even later, idk.
