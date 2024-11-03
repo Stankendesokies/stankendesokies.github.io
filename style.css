@@ -84,7 +84,7 @@ audio {
     bottom: 7px;
 }
 
-@keyframes rainbow {
+@keyframes gay_shit {
     0%                  {background: rgba(228, 3, 3, 0.700);}
     16.66666666666667%  {background: rgba(255, 140, 0, 0.700);}
     33.33333333333333%  {background: rgba(255, 237, 0, 0.700);}
@@ -94,7 +94,7 @@ audio {
     100%                {background: rgba(228, 3, 3, 0.700);}
 }
 
-@-webkit-keyframes rainbow {
+@-webkit-keyframes gay_shit {
     0%                  {background: rgba(228, 3, 3, 0.700);}
     16.66666666666667%  {background: rgba(255, 140, 0, 0.700);}
     33.33333333333333%  {background: rgba(255, 237, 0, 0.700);}
@@ -105,12 +105,12 @@ audio {
 }
          
 a:hover, a:focus {
-    animation-name: rainbow;
+    animation-name: gay_shit;
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: normal;
-    -webkit-animation-name: rainbow;
+    -webkit-animation-name: gay_shit;
     -webkit-animation-duration: 3s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
