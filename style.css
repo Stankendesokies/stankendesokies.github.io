@@ -74,6 +74,8 @@ audio {
 
 .sources li {
     margin: 0px;
+    position: relative;
+    right: 10px;
 }
 
 .footnote {
