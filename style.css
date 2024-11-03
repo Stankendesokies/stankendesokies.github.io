@@ -72,7 +72,7 @@ audio {
     margin-top: 40px;
 }
 
-.sources p {
+.sources li {
     margin: 0px;
     right: 15px;
     position: relative;
