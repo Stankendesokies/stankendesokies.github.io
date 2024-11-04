@@ -70,8 +70,13 @@ audio {
 .sources {
     font-size: small;
     margin-top: 40px;
-    right: 10px;
     position: relative;
+    right: 10px;
+}
+
+.sources p {
+    position: relative;
+    right: 15px;
 }
 
 .sources li {

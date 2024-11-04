@@ -102,4 +102,8 @@
     .sources li {
         left: 10px !important;
     }
+
+    .sources p {
+        right: 0px !important;
+    }
 }
