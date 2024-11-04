@@ -70,12 +70,14 @@ audio {
 .sources {
     font-size: small;
     margin-top: 40px;
+    right: 10px;
+    position: relative;
 }
 
 .sources li {
     margin: 0px;
     position: relative;
-    left: 10px;
+    left: 0px;
 }
 
 .footnote {

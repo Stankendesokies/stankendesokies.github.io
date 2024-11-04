@@ -94,4 +94,12 @@
         width: 200px !important;
         margin: 12px 0px 12px 10px !important;
     }
+
+    .sources {
+        right: 0px !important;
+    }
+
+    .sources li {
+        left: 10px !important;
+    }
 }
