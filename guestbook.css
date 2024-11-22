@@ -28,20 +28,22 @@
 }
 
 #hcb_form_website {
-    height: 18px;
+    height: 18.4px;
     width: 100%;
     padding: 0px;
     margin-bottom: 6.5px;
 }
 
 #hcb_form_content {
-    height: 80px;
+    height: 81.5px;
     margin-bottom: 6.5px !important;
 }
 
 div:has(> .admin-link) {
     width: 27px;
     height: 27px;
+    position: relative;
+    top: 7px;
 }
 
 .home-desc {

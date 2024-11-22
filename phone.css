@@ -106,4 +106,34 @@
     .sources p {
         right: 0px !important;
     }
+
+    #HCB_comment_box h3 {
+        margin: 5px 0px 50px !important;
+    }
+
+    #HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name {
+        font-size: 35 !important;
+    }
+    
+    #hcb_form_name {
+        height: 60px;
+    }
+
+    #hcb_form_content {
+        height: 245.5px !important;
+    }
+
+    #hcb_submit, #hcb_file_label a {
+        font-size: 35px !important;
+    }
+
+    div:has(> .admin-link) {
+        width: 48px !important;
+        height: 48px !important;
+    }
+
+    .admin-link {
+        width: 50px !important;
+        top: 12px !important;
+    }
 }
