@@ -111,7 +111,7 @@ audio {
     100%                {background: rgba(228, 3, 3, 0.700);}
 }
          
-a:not(#comments_list a:has(img)):hover, a:not(#comments_list a:has(img)):focus {
+a:not(#comments_list a:has(img)):hover, a:not(#comments_list a:has(img)):focus, .hcb-comment-tb button:hover, .hcb-comment-tb button:focus {
     animation-name: gay_shit;
     animation-duration: 3s;
     animation-timing-function: linear;

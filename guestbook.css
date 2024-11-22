@@ -84,7 +84,7 @@ div:has(> .admin-link) {
 
 .btn-secondary {
     border: 0px !important;
-    background-color: #5a00dd;
+    background-color: #5a00dd !important;
 }
 
 .hcb-comment-body {
