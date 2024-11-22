@@ -108,15 +108,15 @@
     }
 
     #HCB_comment_box h3 {
-        margin: 5px 0px 50px !important;
+        height: 73px !important;
     }
 
     #HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name, #hcb_submit, #hcb_file_label a {
         font-size: 35px !important;
     }
     
-    #hcb_form_name {
-        height: 60px;
+    #hcb_form_name, #hcb_form_website {
+        height: 60px !important;
     }
 
     #hcb_form_content {
@@ -126,10 +126,10 @@
     div:has(> .admin-link) {
         width: 48px !important;
         height: 48px !important;
+        top: 12px !important;
     }
 
-    .admin-link {
+    .hcb-door-in {
         width: 50px !important;
-        top: 12px !important;
     }
 }
