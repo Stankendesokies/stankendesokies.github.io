@@ -58,6 +58,8 @@ div:has(> .admin-link) {
     padding: 0px 5px !important;
     background: #4803ad;
     border-radius: 0px 0px 7px 7px;
+    position: relative;
+    top: -1px;
 }
 
 #no_comments {
