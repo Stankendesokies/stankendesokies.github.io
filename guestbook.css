@@ -52,6 +52,10 @@ div:has(> .admin-link) {
     margin: 0px !important;
 }
 
+#comments_list {
+    padding: 0px !important;
+}
+
 #no_comments {
     text-align: center;
 }
