@@ -111,7 +111,7 @@ audio {
     100%                {background: rgba(228, 3, 3, 0.700);}
 }
          
-a:hover, a:focus {
+a:not(#comments_list a:has(img)):hover, a:not(#comments_list a:has(img)):focus {
     animation-name: gay_shit;
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -128,11 +128,11 @@ a:hover, a:focus {
     outline: none;
 }
 
-a {
+a, .hcb-comment-tb button {
     border-radius: 7px;
-    color: #ff00e3;
-    text-decoration: none;
-}
+    color: #ff00e3 !important;
+    text-decoration: none !important;
+  }
 
 a:visited {
     color: #d015bb;

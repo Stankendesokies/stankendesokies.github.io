@@ -132,4 +132,16 @@
     .hcb-door-in {
         width: 50px !important;
     }
+
+    .author {
+        font-size: 40px !important;
+    }
+
+    .hcb-comment-body {
+        font-size: 30px !important;
+    }
+
+    #comments_list :not(.author, .author *, .hcb-comment-body) {
+        font-size: 20px !important;
+    }
 }

@@ -5,7 +5,7 @@
 
 #HCB_comment_form_box {
     background: #4803ad;
-    border-radius: 7px;
+    border-radius: 7px 7px 0px 0px;
     padding: 6px !important;
 }
 
@@ -55,7 +55,9 @@ div:has(> .admin-link) {
 }
 
 #comments_list {
-    padding: 0px !important;
+    padding: 0px 5px !important;
+    background: #4803ad;
+    border-radius: 0px 0px 7px 7px;
 }
 
 #no_comments {
@@ -65,6 +67,7 @@ div:has(> .admin-link) {
 #HCB_comment_box h3 {
     height: 30px;
     margin: 5px 0px 8px !important;
+    overflow: hidden;
 }
 
 #HCB_comment_box h3::before {
@@ -74,4 +77,16 @@ div:has(> .admin-link) {
 
 #hcb_submit {
     border-radius: 7px;
+    border: 0px !important;
+    background-color: #5a00dd !important;
+    color: #ff00e3 !important;
+}
+
+.btn-secondary {
+    border: 0px !important;
+    background-color: #5a00dd;
+}
+
+.hcb-comment-body {
+    color: #ffffff;
 }
