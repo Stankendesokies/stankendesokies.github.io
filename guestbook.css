@@ -82,11 +82,13 @@ div:has(> .admin-link) {
     border: 0px !important;
     background-color: #5a00dd !important;
     color: #ff00e3 !important;
+    cursor: pointer;
 }
 
 .btn-secondary {
     border: 0px !important;
     background-color: #5a00dd !important;
+    cursor: pointer;
 }
 
 .hcb-comment-body {
