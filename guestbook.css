@@ -65,4 +65,8 @@ div:has(> .admin-link) {
     content: 'Guest book:';
     width: 360px;
     display: block;
-  }
+}
+
+#hcb_submit {
+    border-radius: 7px;
+}
