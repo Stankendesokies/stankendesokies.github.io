@@ -9,7 +9,7 @@
     padding: 6px;
 }
 
-#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name_container {
+#HCB_comment_box #hcb_form textarea :not(#hcb_form_content), #HCB_comment_box #hcb_form #hcb_form_name_container {
     margin-bottom: 0px !important;
 }
 
@@ -36,10 +36,10 @@
 
 #hcb_form_content {
     height: 80px;
-    margin-bottom: 6.5px;
+    margin-bottom: 6.5px !important;
 }
 
-div:has(.admin-link) {
+div:has(> .admin-link) {
     width: 27px;
     height: 27px;
 }
