@@ -1,5 +1,5 @@
 #HCB_comment_box {
-    margin: 0% 40%;
+    margin: 0% 10%;
     font-family: 'OpenDyslexic' !important;
 }
 
@@ -67,7 +67,6 @@ div:has(> .admin-link) {
 
 #HCB_comment_box h3::before {
     content: 'Guest book:';
-    width: 360px;
     display: block;
 }
 
