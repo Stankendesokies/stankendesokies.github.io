@@ -1,0 +1,57 @@
+#HCB_comment_box {
+    margin: 0% 40%;
+    font-family: 'OpenDyslexic' !important;
+}
+
+#HCB_comment_form_box {
+    background: #4803ad;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name_container {
+    margin-bottom: 0px !important;
+}
+
+#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name {
+    font-family: 'OpenDyslexic' !important;
+    padding: 0px !important;
+}
+
+.input-field {
+    width: calc(100% - 4px);
+}
+
+#hcb_form_name {
+    height: 18px;
+    width: 100%;
+}
+
+#hcb_form_website {
+    height: 18px;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 6.5px;
+}
+
+#hcb_form_content {
+    height: 80px;
+    margin-bottom: 6.5px;
+}
+
+div:has(.admin-link) {
+    width: 27px;
+    height: 27px;
+}
+
+.home-desc {
+    display: none !important;
+}
+
+#comments_list * {
+    margin: 0px !important;
+}
+
+#no_comments {
+    text-align: center;
+}
