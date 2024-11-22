@@ -57,7 +57,8 @@ div:has(> .admin-link) {
 }
 
 #HCB_comment_box h3 {
-    height: 33px;
+    height: 30px;
+    margin: 5px 0px 8px !important;
 }
 
 #HCB_comment_box h3::before {
