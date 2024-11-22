@@ -154,7 +154,7 @@ table {
 }
 
 tr {
-    margin: 0px;
+    margin: -1px;
 }
 
 .to-do-list-title {
