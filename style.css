@@ -149,11 +149,11 @@ td, th {
     padding: 8px;
 }
 
-td {
+table {
     margin: 0px 5px;
 }
 
-th {
+tr {
     margin: 0px;
 }
 
