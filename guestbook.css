@@ -6,7 +6,7 @@
 #HCB_comment_form_box {
     background: #4803ad;
     border-radius: 7px;
-    padding: 6px;
+    padding: 6px !important;
 }
 
 #HCB_comment_box #hcb_form textarea :not(#hcb_form_content), #HCB_comment_box #hcb_form #hcb_form_name_container {
