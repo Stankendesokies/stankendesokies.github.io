@@ -111,6 +111,10 @@ div:has(> .admin-link) {
     display: block;
 }
 
+#HCB_comment_box:not(:has(button.btn-secondary)) > p {
+    display: none;
+}
+
 #HCB_comment_form_box button.btn-secondary {
     display: block;
     width: 164px;
