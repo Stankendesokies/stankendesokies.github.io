@@ -123,12 +123,6 @@
         height: 245.5px !important;
     }
 
-    div:has(> .admin-link) {
-        width: 48px !important;
-        height: 48px !important;
-        top: 12px !important;
-    }
-
     .hcb-door-in {
         width: 50px !important;
     }
