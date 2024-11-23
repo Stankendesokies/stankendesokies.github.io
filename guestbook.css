@@ -106,12 +106,12 @@ div:has(> .admin-link) {
     overflow: hidden;
 }
 
-#HCB_comment_box > p::before {
+#HCB_comment_box > p:has(+ #HCB_comment_form_box:has(button.btn-secondary))::before {
     content: 'Thx for writing something in the guest book <3';
     display: block;
 }
 
-#HCB_comment_form_box .btn-secondary {
+#HCB_comment_form_box button.btn-secondary {
     display: block;
     width: 164px;
     height: 37px;
@@ -119,7 +119,7 @@ div:has(> .admin-link) {
     line-height: 22px;
 }
 
-#HCB_comment_form_box .btn-secondary::before {
+#HCB_comment_form_box button.btn-secondary::before {
     content: 'Write more stuff :3 ';
     top: -2px;
     position: relative;
