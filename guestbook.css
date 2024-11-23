@@ -100,13 +100,13 @@ div:has(> .admin-link) {
     color: #85fff9;
 }
 
-#HCB_comment_box > p:has(+ #HCB_comment_form_box:has(button.btn-secondary)) {
+#HCB_comment_box:has(button.btn-secondary) > p {
     margin: -10px 0px 0px;
     height: 28px;
     overflow: hidden;
 }
 
-#HCB_comment_box > p:has(+ #HCB_comment_form_box:has(button.btn-secondary))::before {
+#HCB_comment_box:has(button.btn-secondary) > p::before {
     content: 'Thx for writing something in the guest book <3';
     display: block;
 }
