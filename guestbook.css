@@ -50,8 +50,11 @@ div:has(> .admin-link) {
     display: none !important;
 }
 
-#comments_list * {
-    margin: 0px !important;
+.comment {
+    background: #22222222;
+    margin-bottom: 5px !important;
+    word-wrap: anywhere;
+    border-radius: 7px;
 }
 
 #comments_list {
@@ -106,12 +109,6 @@ div:has(> .admin-link) {
 #HCB_comment_box > p::before {
     content: 'Thx for writing something in the guest book <3';
     display: block;
-}
-
-hcb-comment-body {
-    word-wrap: anywhere;
-    border-radius: 7px;
-    background: #22222222;
 }
 
 #HCB_comment_form_box .btn-secondary {
