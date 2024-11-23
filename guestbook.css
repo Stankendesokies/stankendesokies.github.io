@@ -100,8 +100,8 @@ div:has(> .admin-link) {
     color: #85fff9;
 }
 
-#HCB_comment_box > p {
-    margin: 0px;
+#HCB_comment_box > p:has(+ #HCB_comment_form_box:has(button.btn-secondary)) {
+    margin: -10px 0px 0px;
     height: 28px;
     overflow: hidden;
 }
@@ -123,4 +123,8 @@ div:has(> .admin-link) {
     content: 'Write more stuff :3 ';
     top: -2px;
     position: relative;
+}
+
+blockquote {
+    margin: 0px !important;
 }

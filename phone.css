@@ -144,4 +144,16 @@
     #comments_list :not(.author, .author *, .hcb-comment-body) {
         font-size: 20px !important;
     }
+
+    #HCB_comment_form_box button.btn-secondary {
+        width: 238px !important;
+        height: 80px !important;
+        line-height: 33px !important;
+        font-size: 35px !important;
+    }
+
+    #HCB_comment_box > p {
+        height: 69px !important;
+        margin-top: -20px !important;
+    }
 }
