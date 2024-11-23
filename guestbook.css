@@ -1,6 +1,8 @@
 #HCB_comment_box {
     margin: 0% 10%;
     font-family: 'OpenDyslexic' !important;
+    position: relative;
+    top: -25px;
 }
 
 #HCB_comment_form_box {
@@ -96,22 +98,22 @@ div:has(> .admin-link) {
     color: #ff00e3 !important;
 }
 
-.hcb-comment-body, .author {
+.hcb-comment-body, .author, .likes {
     color: #85fff9;
 }
 
-#HCB_comment_box:has(button.btn-secondary) > p {
+#HCB_comment_box:has(button.btn-secondary) > p:not(:has(.hcb-link)) {
     margin: -10px 0px 0px;
     height: 28px;
     overflow: hidden;
 }
 
-#HCB_comment_box:has(button.btn-secondary) > p::before {
+#HCB_comment_box:has(button.btn-secondary) > p:not(:has(.hcb-link))::before {
     content: 'Thx for writing something in the guest book <3';
     display: block;
 }
 
-#HCB_comment_box:not(:has(button.btn-secondary)) > p {
+#HCB_comment_box:not(:has(button.btn-secondary)) > p:not(:has(.hcb-link)) {
     display: none;
 }
 
@@ -131,4 +133,21 @@ div:has(> .admin-link) {
 
 blockquote {
     margin: 0px !important;
+}
+
+p:has(.hcb-link) {
+    margin: 0px 5px !important;
+}
+
+#HCB_comment_box::before {
+    content: ', leave blank to remain anonomous';
+    position: relative;
+    top: 66px;
+    left: 48px;
+    color: #757575;
+    pointer-events: none;
+    font-size: 14px;}
+
+#HCB_comment_box:has(#hcb_form_name:focus)::before {
+    visibility: hidden;
 }
