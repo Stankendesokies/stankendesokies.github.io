@@ -162,4 +162,8 @@
         left: 88px !important;
         font-size: 28px !important;
     }
+
+    #HCB_comment_box:has(#hcb_form_name:not(:placeholder-shown))::before, #HCB_comment_box:has(button.btn-secondary)::before {
+        visibility: hidden;
+    }
 }
