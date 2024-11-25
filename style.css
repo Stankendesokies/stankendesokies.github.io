@@ -146,15 +146,10 @@ a:visited {
 td, th {
     border: 1px solid #000000;
     text-align: left;
-    padding: 8px;
 }
 
 table {
     margin: 0px 5px;
-}
-
-tr {
-    margin: -1px;
 }
 
 .to-do-list-title {
