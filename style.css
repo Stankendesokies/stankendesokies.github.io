@@ -146,7 +146,8 @@ a:visited {
 td, th {
     border: 1px solid #000000;
     text-align: left;
-    padding: 0px;
+    padding: 8px;
+    margin: 0px;
 }
 
 table {
