@@ -38,13 +38,13 @@
     position: fixed;
     left: 0.65%;
     top: 4%;
-    height: 100px;
+    height: 50px;
     overflow: hidden;
 }
 
 .openNav p {
     position: relative;
-    top: -38.5px;
+    top: -12px;
     margin: 0px !important;
 }
   
