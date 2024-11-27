@@ -111,7 +111,7 @@ audio {
     100%                {background: rgba(228, 3, 3, 0.700);}
 }
          
-a:not(#comments_list a:has(img)):hover, a:not(#comments_list a:has(img)):focus, .hcb-comment-tb button:hover, .hcb-comment-tb button:focus {
+a:not(#comments_list a:has(img), .topPalestineFlag a):hover, a:not(#comments_list a:has(img), .topPalestineFlag a):focus, .hcb-comment-tb button:hover, .hcb-comment-tb button:focus {
     animation-name: gay_shit;
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -175,11 +175,15 @@ table {
     image-rendering: pixelated
 }
 
+.topPalestineFlag {
+    height: 0px;
+}
+
 .topPalestineFlag a {
     display: flex;
     margin: 0px 100px;
     position: relative;
-    top: 0px;
+    top: 22px;
 }
 
 .topPalestineFlag #left {
