@@ -156,4 +156,17 @@
         left: 88px !important;
         font-size: 28px !important;
     }
+
+    .topPalestineFlag a {
+        margin: 0px 15px !important;
+        top: -50px !important;
+    }
+    
+    .topPalestineFlag #left img {
+        height: 45px !important;
+    }
+    
+    .topPalestineFlag #right img {
+        height: 100px !important;
+    }
 }

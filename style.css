@@ -157,3 +157,43 @@ table {
 .to-do-list-title {
     text-align: center;
 }
+
+.palestineButtons {
+    margin: 0% 10%;
+}
+
+.palestineButtons a {
+    height: fit-content;
+    display: inline-block;
+}
+
+.palestineButtons img {
+    height: 50px;
+}
+
+.pixelated {
+    image-rendering: pixelated
+}
+
+.topPalestineFlag a {
+    display: flex;
+    margin: 0px 100px;
+    position: relative;
+    top: 0px;
+}
+
+.topPalestineFlag #left {
+    float: left;
+}
+
+.topPalestineFlag #right {
+    float: right;
+}
+
+.topPalestineFlag #left img {
+    height: 50px;
+}
+
+.topPalestineFlag #right img {
+    height: 75px;
+}
