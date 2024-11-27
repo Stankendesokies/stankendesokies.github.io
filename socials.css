@@ -1,8 +1,10 @@
 .soc_list {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: auto;
     overflow: hidden;
+    width: 1260px;
+    max-width: 80%;
 }
 
 .soc_list li {
@@ -20,4 +22,5 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    width: 550px;
 }
