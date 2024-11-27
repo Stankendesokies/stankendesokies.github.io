@@ -17,6 +17,14 @@
         font-size: 100px !important;
     }
 
+    .openNav {
+        height: 50px !important;
+    }
+    
+    .openNav p {
+        top: -12px !important;
+    }
+
     .closebtn {
         font-size: 72px !important;
         padding: 5px 50px 5px 50px !important;

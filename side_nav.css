@@ -33,13 +33,19 @@
 }
 
 .openNav {
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
     position: fixed;
-    left: 0.35%;
-    top: 3.65%;
-    background: transparent;
-    border: none;
+    left: 0.65%;
+    top: 4%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.openNav p {
+    position: relative;
+    top: -38.5px;
+    margin: 0px !important;
 }
   
 .closebtn {
