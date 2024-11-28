@@ -5,6 +5,12 @@
     font-style: normal;
 }
 
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #f736daff #f000c800 !important;
+    transition: ease 0.3s scrollbar-color;
+}
+
 html {
     min-height: 100%; /*this is stupid, why do I need this??*/
     scroll-behavior: smooth;
