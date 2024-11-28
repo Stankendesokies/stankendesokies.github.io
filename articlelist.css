@@ -7,7 +7,7 @@
 #myInput {
     background-image: url('/images/searchicon.png');
     background-size: 21px;
-    background-position: 10px 12px;
+    background-position: 10px 15px;
     background-repeat: no-repeat;
     width: 100%;
     padding: 12px 20px 12px 40px;
@@ -15,6 +15,7 @@
     font-family: 'OpenDyslexic';
     background-color: transparent;
     outline: none;
+    font-size: 16px;
 }
   
 #myUL {
@@ -57,6 +58,8 @@
     font-family: 'OpenDyslexic';
     margin-right: -6px;
     color: black;
+    min-width: 165px;
+    font-size: 16px;
 }
   
 .btn:hover {
