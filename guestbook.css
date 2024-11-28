@@ -70,13 +70,20 @@ div:has(> .admin-link) {
 
 #HCB_comment_box h3 {
     height: 30px;
-    margin: 0px 0px 3px !important;
+    margin: -20px 0px;
+    margin-bottom: 15px !important;
     overflow: hidden;
+    font-size: 24px;
 }
 
 #HCB_comment_box h3::before {
     content: 'Guest book:';
     display: block;
+}
+
+#hcb_msg {
+    text-align: center;
+    text-decoration: underline;
 }
 
 #hcb_submit {
@@ -139,7 +146,7 @@ p:has(.hcb-link) {
 #HCB_comment_box::before {
     content: ', leave blank to remain anonomous';
     position: relative;
-    top: 66px;
+    top: 58px;
     left: 48px;
     color: #757575;
     pointer-events: none;

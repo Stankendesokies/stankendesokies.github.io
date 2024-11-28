@@ -116,7 +116,9 @@
     }
 
     #HCB_comment_box h3 {
-        height: 73px !important;
+        height: 90px !important;
+        font-size: 60px !important;
+        margin: -90px 0px !important;
     }
 
     #HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name, #hcb_form_website, #hcb_submit, #hcb_file_label a {
@@ -166,8 +168,8 @@
     }
 
     #HCB_comment_box::before {
-        top: 146.5px !important;
-        left: 88px !important;
+        top: 86.5px !important;
+        left: 89px !important;
         font-size: 28px !important;
     }
 
