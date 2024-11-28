@@ -30,8 +30,7 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-var btnContainer = document.getElementById("btnContainer");
-var btns = btnContainer.getElementsByClassName("filterBtn");
+var btns = getElementsByClassName("filterBtn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
