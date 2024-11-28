@@ -69,7 +69,7 @@ div:has(> .admin-link) {
 }
 
 #HCB_comment_box h3 {
-    height: 30px;
+    height: 31px;
     margin: -20px 0px;
     margin-bottom: 15px !important;
     overflow: hidden;
