@@ -49,6 +49,7 @@
     border-style: solid;
     border-bottom: none;
     border-top: none;
+    border-left: none;
     border-image: linear-gradient(145deg, rgba(222,0,129,1) 0%, rgba(191,6,157,1) 25%, rgba(136,7,166,1) 50%, rgba(113,35,147,1) 75%, rgba(93,2,157,1) 100%) 1;
     outline: none;
     padding: 12px 16px;
@@ -57,10 +58,6 @@
     font-family: 'OpenDyslexic';
     margin-right: -6px;
     color: black;
-}
-
-.btn:not(.all) {
-    border-left: none;
 }
   
 .btn:hover {
