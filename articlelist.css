@@ -30,7 +30,7 @@
 }
   
 .filterDiv {
-    display: contents;
+    display: none;
 }
   
 .show {
