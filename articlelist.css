@@ -1,4 +1,4 @@
-input {
+#myInput {
     background-image: url('/images/searchicon.png');
     background-size: 21px;
     background-position: 10px 12px;
@@ -14,13 +14,13 @@ input {
     outline: none;
 }
   
-#uL {
+#myUL {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
   
-#uL li a {
+#myUL li a {
     border-width: 3px;
     border-style: solid;
     border-image: linear-gradient(145deg, rgba(222,0,129,1) 0%, rgba(191,6,157,1) 25%, rgba(136,7,166,1) 50%, rgba(113,35,147,1) 75%, rgba(93,2,157,1) 100%) 1;
@@ -36,17 +36,12 @@ input {
 .show {
     display: block;
 }
-  
-.container {
-    margin-top: 20px;
-    overflow: hidden;
-}
 
-#btnContainer {
+#myBtnContainer {
     margin-bottom: 2px;
 }
   
-.filterBtn {
+.btn {
     border-width: 3px;
     border-style: solid;
     border-bottom: none;
@@ -60,11 +55,11 @@ input {
     margin-right: 5px;
 }
   
-.filterBtn:hover {
+.btn:hover {
     background-color: #ff00e3;
 }
   
-.filterBtn.active {
+.btn.active {
     background: linear-gradient(145deg, rgba(93,2,157,1) 0%, rgba(113,35,147,1) 25%, rgba(136,7,166,1) 50%, rgba(191,6,157,1) 75%, rgba(222,0,129,1) 100%);
 }
 
