@@ -149,11 +149,6 @@ p:has(.hcb-link) {
     visibility: hidden;
 }
 
-#HCB_comment_box ::placeholder {
-  color: #757575;
-  opacity: 1;
-}
-
 #HCB_comment_box ::-ms-input-placeholder {
   color: #757575;
 }

@@ -143,6 +143,11 @@ a:visited {
     color: #FFFFFF;
 }
 
+::placeholder {
+    color: #757575;
+    opacity: 1;
+}
+
 td, th {
     border: 1px solid #000000;
     text-align: left;
