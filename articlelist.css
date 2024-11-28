@@ -9,6 +9,7 @@ input {
     border-style: solid;
     border-image: linear-gradient(145deg, rgba(222,0,129,1) 0%, rgba(191,6,157,1) 25%, rgba(136,7,166,1) 50%, rgba(113,35,147,1) 75%, rgba(93,2,157,1) 100%) 1;
     font-family: 'OpenDyslexic';
+    background-color: transparent;
 }
   
 #uL {
@@ -65,4 +66,8 @@ input {
   
 .filterBtn.active {
     background: linear-gradient(145deg, rgba(93,2,157,1) 0%, rgba(113,35,147,1) 25%, rgba(136,7,166,1) 50%, rgba(191,6,157,1) 75%, rgba(222,0,129,1) 100%);
+}
+
+.main_box {
+    padding: 15px 10% 0;
 }
