@@ -143,8 +143,16 @@
         font-size: 30px !important;
     }
 
-    #comments_list :not(.author, .author *, .hcb-comment-body), p:has(.hcb-link) {
+    #comments_list :not(.author, .author *, .hcb-comment-body), p:has(.hcb-link), #myInput, #myBtnContainer, #myBtnContainer *, #myUL {
         font-size: 20px !important;
+    }
+
+    #myInput {
+        background-position: 10px 19px !important;
+    }
+
+    .btn {
+        margin-right: 0.5px !important;
     }
 
     #HCB_comment_form_box button.btn-secondary {
