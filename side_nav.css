@@ -20,6 +20,7 @@
 
 .sidebar a:not(.closebtn) {
     padding: 8px 8px 8px 32px;
+    border-bottom: solid 2px rgba(93, 2, 157, 1);
 }
   
 .sidebar a:hover {
