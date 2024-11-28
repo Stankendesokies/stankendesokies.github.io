@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("onput");
+    input = document.getElementById("input");
     filter = input.value.toUpperCase();
     ul = document.getElementById("uL");
     li = ul.getElementsByTagName("li");
