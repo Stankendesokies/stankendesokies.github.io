@@ -51,9 +51,9 @@ function myFunction() {
         a = li[i].getElementsByTagName("a")[0];
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].w3AddClass(x[i], "show");
+            li[i].style.display = "";
         } else {
-            li[i].w3RemoveClass(x[i], "show");
+            li[i].style.display = "none";
         }
     }
 }
