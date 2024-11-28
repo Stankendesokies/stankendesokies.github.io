@@ -30,7 +30,7 @@ input {
 }
   
 .filterDiv {
-    display: none;
+    display: contents;
 }
   
 .show {
