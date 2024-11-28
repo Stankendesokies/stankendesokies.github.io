@@ -1,6 +1,6 @@
 @media (max-width: 1000px) {
     /* For mobile phones: */
-    body {
+    body, .author, #myBtnContainer, #myBtnContainer *, #myInput {
       font-size: 40px !important;
     }
 
@@ -135,20 +135,22 @@
         width: 50px !important;
     }
 
-    .author {
-        font-size: 40px !important;
-    }
-
     .hcb-comment-body {
         font-size: 30px !important;
     }
 
-    #comments_list :not(.author, .author *, .hcb-comment-body), p:has(.hcb-link), #myInput, #myBtnContainer, #myBtnContainer *, #myUL {
+    #comments_list :not(.author, .author *, .hcb-comment-body), p:has(.hcb-link) {
         font-size: 20px !important;
     }
 
     #myInput {
-        background-position: 10px 19px !important;
+        background-position: 10px 33px !important;
+        background-size: 30px !important;
+        padding: 12px 20px 12px 55px !important;
+    }
+
+    .btn {
+        margin-right: -15px !important;
     }
 
     #HCB_comment_form_box button.btn-secondary {
