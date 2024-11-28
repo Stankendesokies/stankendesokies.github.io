@@ -66,3 +66,24 @@
 .main_box {
     padding: 15px 10% 0;
 }
+
+.filterDiv a::after {
+    float: right;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(145deg, rgba(222,0,129,1) 0%, rgba(191,6,157,1) 25%, rgba(136,7,166,1) 50%, rgba(113,35,147,1) 75%, rgba(93,2,157,1) 100%) 1;
+    margin-top: -10px;
+    padding: 11px 12px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    color: black;
+}
+
+.opinions a::after {
+    content: 'Opinions';
+  }
+
+.queer a::after {
+    content: 'Queer';
+  }
