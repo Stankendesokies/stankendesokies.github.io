@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Article list</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="phone.css">
+        <link rel="stylesheet" type="text/css" href="side_nav.css">
+        <link rel="stylesheet" type="text/css" href="articlelist.css">
+        <script type="text/javascript" src="sidenav.js"></script>
+        <script type="text/javascript" src="articlelist.js"></script>
+    </head>
+    <body>
+        <header class="top_bar" id="top_bar">
+            <h1 class="title">Article list</h1>
+            <nav>
+                <span class="openNav" onclick="openNav()">
+                    <p>&#9776;</p>
+                </span>
+            </nav>
+        </header>
+        <div class="sidebar" id="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <section class="links">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/socials">Socials</a>
+                <a href="/articlelist">Article list</a>
+                <a href="/life_updates">Life updates</a>
+            </section>
+        </div>
+        <main class="main_box" id="main_box">
+            <article class="main_focus">
+                <input type="text" id="input" onkeyup="myFunction()" placeholder="Search for titles" title="Type in anything">
+                <h3>Filter on themes:</h3>
+                <div id="btnContainer">
+                    <button class="filterBtn active" onclick="filterSelection('all')">Show all</button>
+                    <button class="filterBtn" onclick="filterSelection('opinions')">Opinions</button>
+                    <button class="filterBtn" onclick="filterSelection('queer')">Queer</button>
+                    <button class="filterBtn" onclick="filterSelection('politics')">Politics</button>
+                    <button class="filterBtn" onclick="filterSelection('kink')">Kink</button>
+                </div>
+                <ul id="uL">
+                    <li class="filterDiv opinions">
+                        <a href="https://stankendesokies.github.io/opinions/BMI_is_fucking_bs">BMI is fucking bs</a>
+                    </li>
+                    <li class="filterDiv queer">
+                        <a href="https://stankendesokies.github.io/queer/fuck_gender">Fuck gender</a>
+                    </li>
+                </ul>
+            </article>
+            <footer class="bottom_bar">
+                <br>
+                <p>Copywhatever Ⓐ</p>
+            </footer>
+        </main>
+    </body>
+</html>
