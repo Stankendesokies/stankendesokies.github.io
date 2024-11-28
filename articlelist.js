@@ -58,5 +58,5 @@ function myFunction() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    filterSelection
+    filterSelection('all')
 });
