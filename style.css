@@ -183,7 +183,7 @@ table {
     height: 50px;
 }
 
-.pixelated {
+.palestineButtons img, .topPalestineFlag img {
     image-rendering: pixelated
 }
 
