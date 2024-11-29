@@ -1,7 +1,7 @@
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("filterDiv");
+  x = document.getElementsByClassName("article");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
@@ -31,7 +31,7 @@ function w3RemoveClass(element, name) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    var btns = document.getElementsByClassName("btn");
+    var btns = document.getElementsByClassName("theme");
     for (var i = 0; i < btns.length; i++) {
         btns[i].addEventListener("click", function(){
             var current = document.getElementsByClassName("active");
@@ -44,9 +44,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
+    input = document.getElementById("search_bar");
     filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
+    ul = document.getElementById("article_list");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];

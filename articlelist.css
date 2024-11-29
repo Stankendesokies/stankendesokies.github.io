@@ -1,10 +1,10 @@
-#myInput, #myUL li a, .filterDiv a::after, #myBtnContainer {
+#search_bar, #article_list li a, .article a::after, #filters {
     border-width: 3px;
     border-style: solid;
     border-image: linear-gradient(145deg, rgba(222,0,129,1) 0%, rgba(191,6,157,1) 25%, rgba(136,7,166,1) 50%, rgba(113,35,147,1) 75%, rgba(93,2,157,1) 100%) 1;
 }
 
-#myInput {
+#search_bar {
     background-image: url('/images/searchicon.png');
     background-size: 21px;
     background-position: 10px 15px;
@@ -18,19 +18,19 @@
     font-size: 16px;
 }
   
-#myUL {
+#article_list {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
   
-#myUL li a {
+#article_list li a {
     margin-top: -2px;
     padding: 12px;
     display: block
 }
   
-.filterDiv {
+.article {
     display: none;
 }
   
@@ -38,13 +38,13 @@
     display: block;
 }
 
-#myBtnContainer {
+#filters {
     margin-bottom: 2px;
     border-bottom: none;
     border-top: none;
 }
   
-.btn {
+.theme {
     border-width: 3px;
     border-style: solid;
     border-bottom: none;
@@ -62,11 +62,11 @@
     font-size: 16px;
 }
   
-.btn:hover {
+.theme:hover {
     background-color: #ff00e3;
 }
   
-.btn.active {
+.theme.active {
     background: linear-gradient(145deg, rgba(93,2,157,1) 0%, rgba(113,35,147,1) 25%, rgba(136,7,166,1) 50%, rgba(191,6,157,1) 75%, rgba(222,0,129,1) 100%);
 }
 
@@ -74,7 +74,7 @@
     padding: 15px 10% 0;
 }
 
-.filterDiv a::after {
+.article a::after {
     float: right;
     margin-top: -12px;
     padding: 12px;

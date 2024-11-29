@@ -30,19 +30,19 @@
         </div>
         <main class="main_box" id="main_box">
             <article class="main_focus">
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for titles" title="Type in anything">
-                <div id="myBtnContainer">
-                    <button class="btn active" onclick="filterSelection('all')">Show all</button>
-                    <button class="btn" onclick="filterSelection('opinions')">Opinions</button>
-                    <button class="btn" onclick="filterSelection('queer')">Queer</button>
-                    <button class="btn" onclick="filterSelection('politics')">Politics</button>
-                    <button class="btn" onclick="filterSelection('kink')">Kink</button>
+                <input type="text" id="search_bar" onkeyup="myFunction()" placeholder="Search for titles" title="Type in anything">
+                <div id="filters">
+                    <button class="theme active" onclick="filterSelection('all')">Show all</button>
+                    <button class="theme" onclick="filterSelection('opinions')">Opinions</button>
+                    <button class="theme" onclick="filterSelection('queer')">Queer</button>
+                    <button class="theme" onclick="filterSelection('politics')">Politics</button>
+                    <button class="theme" onclick="filterSelection('kink')">Kink</button>
                 </div>
-                <ul id="myUL">
-                    <li class="filterDiv opinions">
+                <ul id="article_list">
+                    <li class="article opinions">
                         <a href="/opinions/BMI_is_fucking_bs">BMI is fucking bs</a>
                     </li>
-                    <li class="filterDiv queer">
+                    <li class="article queer">
                         <a href="/queer/fuck_gender">Fuck gender</a>
                     </li>
                 </ul>
