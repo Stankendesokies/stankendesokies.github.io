@@ -145,6 +145,12 @@
         font-size: 20px !important;
     }
 
+    .likes img {
+        height: 25px;
+        position: relative;
+        top: 3px;
+    }
+
     #myInput {
         background-position: 10px 33px !important;
         background-size: 30px !important;

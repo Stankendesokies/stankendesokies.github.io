@@ -56,6 +56,18 @@ div:has(> .admin-link) {
     border-radius: 7px;
 }
 
+.comment :not(.comment *), .comment {
+    padding: 5px 10px;
+}
+
+[id*="replies"] .comment {
+    margin: 20px 0px 5px 20px !important;
+}
+
+.likes {
+    margin: 10px;
+}
+
 #comments_list {
     padding: 0px 5px !important;
     background: #4803ad;
