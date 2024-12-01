@@ -1,6 +1,6 @@
 @media (max-width: 1000px) {
     /* For mobile phones: */
-    body, .author, #myBtnContainer, #myBtnContainer *, #myInput {
+    body, .author, #filters, #filters *, #search_bar {
       font-size: 40px !important;
     }
 
@@ -146,18 +146,18 @@
     }
 
     .likes img {
-        height: 25px;
-        position: relative;
-        top: 3px;
+        height: 25px !important;
+        position: relative !important;
+        top: 3px !important;
     }
 
-    #myInput {
+    #search_bar {
         background-position: 10px 33px !important;
         background-size: 30px !important;
         padding: 12px 20px 12px 55px !important;
     }
 
-    .btn {
+    .theme {
         margin-right: -15px !important;
     }
 
