@@ -92,3 +92,11 @@
 .queer a::after {
     content: 'Queer';
   }
+
+.politics a::after {
+    content: 'Politics'
+}
+
+.kink a::after {
+    content: 'Kink'
+}
