@@ -27,7 +27,8 @@
 #article_list li a {
     margin-top: -2px;
     padding: 12px 0px 12px 12px;
-    display: block
+    display: block;
+    border-radius: 0px;
 }
   
 .article {
