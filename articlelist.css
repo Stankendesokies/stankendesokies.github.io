@@ -1,4 +1,4 @@
-#search_bar, #article_list li a, .article a::after, #filters {
+#search_bar, .article, .article a::after, #filters {
     border-width: 3px;
     border-style: solid;
     border-image: linear-gradient(145deg, rgba(222,0,129,1) 0%, rgba(191,6,157,1) 25%, rgba(136,7,166,1) 50%, rgba(113,35,147,1) 75%, rgba(93,2,157,1) 100%) 1;
@@ -26,12 +26,13 @@
   
 #article_list li a {
     margin-top: -2px;
-    padding: 12px;
+    padding: 12px 0px 12px 12px;
     display: block
 }
   
 .article {
     display: none;
+    margin-top: -2px;
 }
   
 .show {
