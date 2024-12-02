@@ -161,6 +161,18 @@
         margin-right: -15px !important;
     }
 
+    .show a {
+        white-space: nowrap !important;
+        text-overflow: ellipsis !important;
+        overflow: hidden !important;
+        width: 367px !important;
+    }
+
+    .article a::after {
+        position: absolute !important;
+        right: 214px !important;
+    }
+
     #HCB_comment_form_box button.btn-secondary {
         width: 238px !important;
         height: 80px !important;
